@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pinstrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pinstrucciones.Designer.cs">
+      <DependentUpon>Pinstrucciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="PMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Pinstrucciones.resx">
+      <DependentUpon>Pinstrucciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PMenu.resx">
       <DependentUpon>PMenu.cs</DependentUpon>
     </EmbeddedResource>

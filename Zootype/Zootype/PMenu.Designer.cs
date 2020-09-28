@@ -118,7 +118,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 543);
+            this.ClientSize = new System.Drawing.Size(958, 525);
             this.Controls.Add(this.btnInstrucciones);
             this.Controls.Add(this.btnSalida);
             this.Controls.Add(this.btnInicio);
@@ -126,7 +126,7 @@
             this.Controls.Add(this.btnConfig);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PMenu";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
