@@ -51,6 +51,12 @@
     <Compile Include="Pconfiguracion.Designer.cs">
       <DependentUpon>Pconfiguracion.cs</DependentUpon>
     </Compile>
+    <Compile Include="PInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PInicio.Designer.cs">
+      <DependentUpon>PInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pinstrucciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Pconfiguracion.resx">
       <DependentUpon>Pconfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PInicio.resx">
+      <DependentUpon>PInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pinstrucciones.resx">
       <DependentUpon>Pinstrucciones.cs</DependentUpon>
