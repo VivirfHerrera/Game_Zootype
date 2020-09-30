@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Zootype
 {
-    public partial class PInicio : Form
+    public partial class P_lvl2intermedio : Form
     {
-        public PInicio()
+        public P_lvl2intermedio()
         {
             InitializeComponent();
-        }
-
-        private void btnlvl1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

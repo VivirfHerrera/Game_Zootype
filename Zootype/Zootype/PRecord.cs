@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Zootype
 {
-    public partial class PInicio : Form
+    public partial class PRecord : Form
     {
-        public PInicio()
+        public PRecord()
         {
             InitializeComponent();
         }
 
-        private void btnlvl1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PRecord_Load(object sender, EventArgs e)
         {
 
         }

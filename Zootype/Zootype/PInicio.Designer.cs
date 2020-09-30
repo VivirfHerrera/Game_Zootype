@@ -45,7 +45,7 @@
             this.btnlvl3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlvl3.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnlvl3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnlvl3.Location = new System.Drawing.Point(28, 382);
+            this.btnlvl3.Location = new System.Drawing.Point(50, 411);
             this.btnlvl3.Name = "btnlvl3";
             this.btnlvl3.Size = new System.Drawing.Size(150, 44);
             this.btnlvl3.TabIndex = 0;
@@ -61,7 +61,7 @@
             this.btnlvl2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlvl2.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlvl2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnlvl2.Location = new System.Drawing.Point(28, 308);
+            this.btnlvl2.Location = new System.Drawing.Point(50, 329);
             this.btnlvl2.Name = "btnlvl2";
             this.btnlvl2.Size = new System.Drawing.Size(150, 46);
             this.btnlvl2.TabIndex = 1;
@@ -76,12 +76,13 @@
             this.btnlvl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlvl1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlvl1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnlvl1.Location = new System.Drawing.Point(28, 231);
+            this.btnlvl1.Location = new System.Drawing.Point(50, 231);
             this.btnlvl1.Name = "btnlvl1";
             this.btnlvl1.Size = new System.Drawing.Size(150, 44);
             this.btnlvl1.TabIndex = 2;
             this.btnlvl1.Text = "Principiante";
             this.btnlvl1.UseVisualStyleBackColor = false;
+            this.btnlvl1.Click += new System.EventHandler(this.btnlvl1_Click);
             // 
             // btnregresarPin
             // 
@@ -91,7 +92,7 @@
             this.btnregresarPin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnregresarPin.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnregresarPin.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnregresarPin.Location = new System.Drawing.Point(638, 382);
+            this.btnregresarPin.Location = new System.Drawing.Point(754, 411);
             this.btnregresarPin.Name = "btnregresarPin";
             this.btnregresarPin.Size = new System.Drawing.Size(150, 44);
             this.btnregresarPin.TabIndex = 4;
@@ -102,9 +103,9 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DarkGreen;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-13, -43);
+            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(848, 530);
+            this.pictureBox1.Size = new System.Drawing.Size(946, 492);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -113,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(944, 489);
             this.Controls.Add(this.btnregresarPin);
             this.Controls.Add(this.btnlvl1);
             this.Controls.Add(this.btnlvl2);

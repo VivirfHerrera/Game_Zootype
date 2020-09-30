@@ -45,6 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="P-lvl1Principiante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P-lvl1Principiante.Designer.cs">
+      <DependentUpon>P-lvl1Principiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P-lvl2intermedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P-lvl2intermedio.Designer.cs">
+      <DependentUpon>P-lvl2intermedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P-lvl3avanzado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P-lvl3avanzado.Designer.cs">
+      <DependentUpon>P-lvl3avanzado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pconfiguracion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,8 +93,23 @@
     <Compile Include="Pantallacarga.Designer.cs">
       <DependentUpon>Pantallacarga.cs</DependentUpon>
     </Compile>
+    <Compile Include="PRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRecord.Designer.cs">
+      <DependentUpon>PRecord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="P-lvl1Principiante.resx">
+      <DependentUpon>P-lvl1Principiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P-lvl2intermedio.resx">
+      <DependentUpon>P-lvl2intermedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P-lvl3avanzado.resx">
+      <DependentUpon>P-lvl3avanzado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pconfiguracion.resx">
       <DependentUpon>Pconfiguracion.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +125,9 @@
     <EmbeddedResource Include="Pantallacarga.resx">
       <DependentUpon>Pantallacarga.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PRecord.resx">
+      <DependentUpon>PRecord.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -100,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -113,6 +150,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes Fondos lvls\Acuaticlvl1.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticlvl2.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticlvl3.png" />
+    <Content Include="Imagenes Fondos lvls\Aereoslvl1.png" />
+    <Content Include="Imagenes Fondos lvls\Aereoslvl2.png" />
+    <Content Include="Imagenes Fondos lvls\Aereoslvl3.png" />
+    <Content Include="Imagenes Fondos lvls\Terrestrelvl1.png" />
+    <Content Include="Imagenes Fondos lvls\Terrestrelvl2.png" />
+    <Content Include="Imagenes Fondos lvls\Terrestrelvl3.png" />
+    <Content Include="Otras Imagenes\btn.png" />
+    <Content Include="Otras Imagenes\btn1.png" />
+    <None Include="Resources\btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Fotos Animales\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
