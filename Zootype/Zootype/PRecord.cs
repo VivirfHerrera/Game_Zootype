@@ -26,5 +26,10 @@ namespace Zootype
         {
 
         }
+
+        private void btnregrecord_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

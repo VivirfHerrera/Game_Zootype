@@ -281,12 +281,13 @@
             this.btnregrecord.FlatAppearance.BorderSize = 0;
             this.btnregrecord.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnregrecord.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregrecord.Location = new System.Drawing.Point(623, 408);
+            this.btnregrecord.Location = new System.Drawing.Point(754, 408);
             this.btnregrecord.Name = "btnregrecord";
             this.btnregrecord.Size = new System.Drawing.Size(165, 70);
             this.btnregrecord.TabIndex = 20;
             this.btnregrecord.Text = "Regresar";
             this.btnregrecord.UseVisualStyleBackColor = false;
+            this.btnregrecord.Click += new System.EventHandler(this.btnregrecord_Click);
             // 
             // PRecord
             // 

@@ -161,12 +161,21 @@
     <Content Include="Imagenes Fondos lvls\Terrestrelvl1.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl2.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl3.png" />
+    <Content Include="Otras Imagenes\Menup.jpg" />
+    <Content Include="Otras Imagenes\Pinicif.jpg" />
     <Content Include="Otras Imagenes\btn.png" />
     <Content Include="Otras Imagenes\btn1.png" />
+    <Content Include="Otras Imagenes\CargaZootype.png" />
+    <Content Include="Otras Imagenes\fondo-hojas-naturales_23-2148522046.jpg" />
+    <Content Include="Otras Imagenes\PantallaMenu.png" />
+    <Content Include="Otras Imagenes\precors.png" />
     <None Include="Resources\btn.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Fotos Animales\" />
+    <Folder Include="Fotos Animales tres\" />
+    <Folder Include="Fotos Animales uno y dos\Acuaticos\" />
+    <Folder Include="Fotos Animales uno y dos\Aereos\" />
+    <Folder Include="Fotos Animales uno y dos\Terrestres\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

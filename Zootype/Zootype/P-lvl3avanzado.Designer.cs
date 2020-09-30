@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(P_lvl3avanzado));
             this.Points3 = new System.Windows.Forms.Label();
             this.lblp3 = new System.Windows.Forms.Label();
             this.Time3 = new System.Windows.Forms.Label();
@@ -38,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.imgnomlv3 = new System.Windows.Forms.PictureBox();
             this.Fondolvl3 = new System.Windows.Forms.PictureBox();
+            this.btnregres3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgnomlv3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Fondolvl3)).BeginInit();
             this.SuspendLayout();
@@ -121,9 +123,9 @@
             // 
             // imgnomlv3
             // 
-            this.imgnomlv3.Location = new System.Drawing.Point(571, 21);
+            this.imgnomlv3.Location = new System.Drawing.Point(573, 12);
             this.imgnomlv3.Name = "imgnomlv3";
-            this.imgnomlv3.Size = new System.Drawing.Size(349, 286);
+            this.imgnomlv3.Size = new System.Drawing.Size(332, 306);
             this.imgnomlv3.TabIndex = 13;
             this.imgnomlv3.TabStop = false;
             // 
@@ -135,11 +137,27 @@
             this.Fondolvl3.TabIndex = 14;
             this.Fondolvl3.TabStop = false;
             // 
+            // btnregres3
+            // 
+            this.btnregres3.BackColor = System.Drawing.Color.Transparent;
+            this.btnregres3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnregres3.BackgroundImage")));
+            this.btnregres3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnregres3.FlatAppearance.BorderSize = 0;
+            this.btnregres3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnregres3.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregres3.Location = new System.Drawing.Point(733, 424);
+            this.btnregres3.Name = "btnregres3";
+            this.btnregres3.Size = new System.Drawing.Size(199, 65);
+            this.btnregres3.TabIndex = 15;
+            this.btnregres3.Text = "Regresar";
+            this.btnregres3.UseVisualStyleBackColor = false;
+            // 
             // P_lvl3avanzado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
+            this.Controls.Add(this.btnregres3);
             this.Controls.Add(this.imgnomlv3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -171,5 +189,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox imgnomlv3;
         private System.Windows.Forms.PictureBox Fondolvl3;
+        private System.Windows.Forms.Button btnregres3;
     }
 }

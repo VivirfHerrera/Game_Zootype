@@ -63,7 +63,7 @@
             this.btnlvl2.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnlvl2.Location = new System.Drawing.Point(50, 329);
             this.btnlvl2.Name = "btnlvl2";
-            this.btnlvl2.Size = new System.Drawing.Size(150, 46);
+            this.btnlvl2.Size = new System.Drawing.Size(150, 47);
             this.btnlvl2.TabIndex = 1;
             this.btnlvl2.Text = "Intermedio";
             this.btnlvl2.UseVisualStyleBackColor = false;
@@ -72,11 +72,12 @@
             // 
             this.btnlvl1.BackColor = System.Drawing.Color.DarkGreen;
             this.btnlvl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlvl1.BackgroundImage")));
+            this.btnlvl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnlvl1.FlatAppearance.BorderSize = 0;
             this.btnlvl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlvl1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlvl1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnlvl1.Location = new System.Drawing.Point(50, 231);
+            this.btnlvl1.Location = new System.Drawing.Point(50, 255);
             this.btnlvl1.Name = "btnlvl1";
             this.btnlvl1.Size = new System.Drawing.Size(150, 44);
             this.btnlvl1.TabIndex = 2;
