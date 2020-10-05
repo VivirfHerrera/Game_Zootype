@@ -224,9 +224,9 @@
     <Content Include="Animal lvl3\34.png" />
     <Content Include="Animal lvl3\35.png" />
     <Content Include="Animal lvl3\36.png" />
-    <Content Include="Imagenes Fondos lvls\Acuaticlvl1.png" />
-    <Content Include="Imagenes Fondos lvls\Acuaticlvl2.png" />
-    <Content Include="Imagenes Fondos lvls\Acuaticlvl3.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticolvl1.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticolvl2.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticolvl3.png" />
     <Content Include="Imagenes Fondos lvls\Aereoslvl1.png" />
     <Content Include="Imagenes Fondos lvls\Aereoslvl2.png" />
     <Content Include="Imagenes Fondos lvls\Aereoslvl3.png" />
