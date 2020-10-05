@@ -99,6 +99,7 @@
             this.btnregresarPin.TabIndex = 4;
             this.btnregresarPin.Text = "Regresar";
             this.btnregresarPin.UseVisualStyleBackColor = false;
+            this.btnregresarPin.Click += new System.EventHandler(this.btnregresarPin_Click);
             // 
             // pictureBox1
             // 

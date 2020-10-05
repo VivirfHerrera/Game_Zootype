@@ -37,7 +37,7 @@
             this.lblt1 = new System.Windows.Forms.Label();
             this.EscribiranimalName = new System.Windows.Forms.TextBox();
             this.animalname = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_regresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fondolvl1)).BeginInit();
@@ -116,20 +116,21 @@
             this.animalname.Size = new System.Drawing.Size(255, 39);
             this.animalname.TabIndex = 7;
             // 
-            // button1
+            // btn_regresar
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(755, 428);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(177, 61);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Regresar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_regresar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_regresar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_regresar.BackgroundImage")));
+            this.btn_regresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_regresar.FlatAppearance.BorderSize = 0;
+            this.btn_regresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_regresar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_regresar.Location = new System.Drawing.Point(755, 428);
+            this.btn_regresar.Name = "btn_regresar";
+            this.btn_regresar.Size = new System.Drawing.Size(177, 61);
+            this.btn_regresar.TabIndex = 9;
+            this.btn_regresar.Text = "Regresar";
+            this.btn_regresar.UseVisualStyleBackColor = false;
+            this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
             // 
             // label1
             // 
@@ -158,7 +159,7 @@
             this.ClientSize = new System.Drawing.Size(944, 501);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_regresar);
             this.Controls.Add(this.animalname);
             this.Controls.Add(this.EscribiranimalName);
             this.Controls.Add(this.lblt1);
@@ -186,7 +187,7 @@
         private System.Windows.Forms.Label lblt1;
         private System.Windows.Forms.TextBox EscribiranimalName;
         private System.Windows.Forms.TextBox animalname;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_regresar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }

@@ -21,5 +21,12 @@ namespace Zootype
         {
 
         }
+
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            PInicio pInicio = new PInicio();
+            pInicio.Show();
+            this.Dispose();
+        }
     }
 }

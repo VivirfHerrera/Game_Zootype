@@ -87,6 +87,7 @@
             this.btnInicio.TabIndex = 3;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // btnSalida
             // 
@@ -100,6 +101,7 @@
             this.btnSalida.TabIndex = 4;
             this.btnSalida.Text = "Salida";
             this.btnSalida.UseVisualStyleBackColor = true;
+            this.btnSalida.Click += new System.EventHandler(this.btnSalida_Click);
             // 
             // btnInstrucciones
             // 
