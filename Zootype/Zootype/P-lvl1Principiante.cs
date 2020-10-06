@@ -71,7 +71,7 @@ namespace Zootype
             string contents = "";
             contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg]+"1").ToLower();
             Console.WriteLine(contents);
-            if (tb_write.Text.ToLower().CompareTo(contents)==0)
+            if (EscribiranimalName.Text.ToLower().CompareTo(contents)==0)
             {
                 nuevaImagen();
             }
