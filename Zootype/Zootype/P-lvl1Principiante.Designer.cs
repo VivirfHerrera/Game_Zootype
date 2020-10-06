@@ -35,11 +35,12 @@
             this.Time1 = new System.Windows.Forms.Label();
             this.lblp1 = new System.Windows.Forms.Label();
             this.lblt1 = new System.Windows.Forms.Label();
-            this.EscribiranimalName = new System.Windows.Forms.TextBox();
+            this.tb_write = new System.Windows.Forms.TextBox();
             this.animalname = new System.Windows.Forms.TextBox();
             this.btn_regresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btn_verificar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fondolvl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagendescLvl1)).BeginInit();
             this.SuspendLayout();
@@ -100,13 +101,13 @@
             this.lblt1.TabIndex = 5;
             this.lblt1.Text = "Tiempo";
             // 
-            // EscribiranimalName
+            // tb_write
             // 
-            this.EscribiranimalName.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.EscribiranimalName.Location = new System.Drawing.Point(226, 350);
-            this.EscribiranimalName.Name = "EscribiranimalName";
-            this.EscribiranimalName.Size = new System.Drawing.Size(295, 39);
-            this.EscribiranimalName.TabIndex = 6;
+            this.tb_write.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.tb_write.Location = new System.Drawing.Point(226, 350);
+            this.tb_write.Name = "tb_write";
+            this.tb_write.Size = new System.Drawing.Size(295, 39);
+            this.tb_write.TabIndex = 6;
             // 
             // animalname
             // 
@@ -152,16 +153,27 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "Writing here";
             // 
+            // btn_verificar
+            // 
+            this.btn_verificar.Location = new System.Drawing.Point(420, 439);
+            this.btn_verificar.Name = "btn_verificar";
+            this.btn_verificar.Size = new System.Drawing.Size(75, 23);
+            this.btn_verificar.TabIndex = 12;
+            this.btn_verificar.Text = "puta";
+            this.btn_verificar.UseVisualStyleBackColor = true;
+            this.btn_verificar.Click += new System.EventHandler(this.btn_verificar_Click);
+            // 
             // P_lvl1Principiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
+            this.Controls.Add(this.btn_verificar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_regresar);
             this.Controls.Add(this.animalname);
-            this.Controls.Add(this.EscribiranimalName);
+            this.Controls.Add(this.tb_write);
             this.Controls.Add(this.lblt1);
             this.Controls.Add(this.lblp1);
             this.Controls.Add(this.Time1);
@@ -170,6 +182,7 @@
             this.Controls.Add(this.fondolvl1);
             this.Name = "P_lvl1Principiante";
             this.Text = "P_lvl1Principiante";
+            this.Load += new System.EventHandler(this.P_lvl1Principiante_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fondolvl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagendescLvl1)).EndInit();
             this.ResumeLayout(false);
@@ -185,10 +198,11 @@
         private System.Windows.Forms.Label Time1;
         private System.Windows.Forms.Label lblp1;
         private System.Windows.Forms.Label lblt1;
-        private System.Windows.Forms.TextBox EscribiranimalName;
+        private System.Windows.Forms.TextBox tb_write;
         private System.Windows.Forms.TextBox animalname;
         private System.Windows.Forms.Button btn_regresar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btn_verificar;
     }
 }
