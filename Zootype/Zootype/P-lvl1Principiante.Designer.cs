@@ -48,7 +48,7 @@
             // fondolvl1
             // 
             this.fondolvl1.InitialImage = null;
-            this.fondolvl1.Location = new System.Drawing.Point(-7, -29);
+            this.fondolvl1.Location = new System.Drawing.Point(-15, -29);
             this.fondolvl1.Name = "fondolvl1";
             this.fondolvl1.Size = new System.Drawing.Size(960, 540);
             this.fondolvl1.TabIndex = 0;
@@ -149,12 +149,17 @@
             // 
             // btn_verificar
             // 
-            this.btn_verificar.Location = new System.Drawing.Point(420, 439);
+            this.btn_verificar.BackColor = System.Drawing.Color.Transparent;
+            this.btn_verificar.BackgroundImage = global::Zootype.Properties.Resources.btn;
+            this.btn_verificar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_verificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_verificar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_verificar.Location = new System.Drawing.Point(574, 434);
             this.btn_verificar.Name = "btn_verificar";
-            this.btn_verificar.Size = new System.Drawing.Size(75, 23);
+            this.btn_verificar.Size = new System.Drawing.Size(175, 55);
             this.btn_verificar.TabIndex = 12;
-            this.btn_verificar.Text = "NEXT";
-            this.btn_verificar.UseVisualStyleBackColor = true;
+            this.btn_verificar.Text = "Validar";
+            this.btn_verificar.UseVisualStyleBackColor = false;
             this.btn_verificar.Click += new System.EventHandler(this.btn_verificar_Click);
             // 
             // animalname

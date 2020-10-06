@@ -233,6 +233,7 @@
     <Content Include="Imagenes Fondos lvls\Terrestrelvl1.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl2.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl3.png" />
+    <Content Include="Otras Imagenes\btn2.png" />
     <Content Include="Otras Imagenes\Menup.jpg" />
     <Content Include="Otras Imagenes\Pinicif.jpg" />
     <Content Include="Otras Imagenes\btn.png" />
@@ -241,6 +242,7 @@
     <Content Include="Otras Imagenes\fondo-hojas-naturales_23-2148522046.jpg" />
     <Content Include="Otras Imagenes\PantallaMenu.png" />
     <Content Include="Otras Imagenes\precors.png" />
+    <None Include="Resources\btn2.png" />
     <Content Include="Texto lvl1\01.txt" />
     <Content Include="Texto lvl1\02.txt" />
     <Content Include="Texto lvl1\03.txt" />
