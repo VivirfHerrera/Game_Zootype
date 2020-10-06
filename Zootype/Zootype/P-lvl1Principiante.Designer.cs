@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TextBox animalname;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(P_lvl1Principiante));
             this.fondolvl1 = new System.Windows.Forms.PictureBox();
             this.ImagendescLvl1 = new System.Windows.Forms.PictureBox();
@@ -35,19 +36,19 @@
             this.Time1 = new System.Windows.Forms.Label();
             this.lblp1 = new System.Windows.Forms.Label();
             this.lblt1 = new System.Windows.Forms.Label();
-            this.tb_write = new System.Windows.Forms.TextBox();
+            this.EscribiranimalName = new System.Windows.Forms.TextBox();
             this.animalname = new System.Windows.Forms.TextBox();
             this.btn_regresar = new System.Windows.Forms.Button();
+>>>>>>> 96615c5df4b365898d58dbe70da719836daf50ef
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_verificar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fondolvl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagendescLvl1)).BeginInit();
             this.SuspendLayout();
             // 
             // fondolvl1
             // 
-            this.fondolvl1.Location = new System.Drawing.Point(-7, -29);
+            this.fondolvl1.Location = new System.Drawing.Point(-9, -26);
             this.fondolvl1.Name = "fondolvl1";
             this.fondolvl1.Size = new System.Drawing.Size(960, 540);
             this.fondolvl1.TabIndex = 0;
@@ -55,7 +56,7 @@
             // 
             // ImagendescLvl1
             // 
-            this.ImagendescLvl1.Location = new System.Drawing.Point(484, 34);
+            this.ImagendescLvl1.Location = new System.Drawing.Point(493, 68);
             this.ImagendescLvl1.Name = "ImagendescLvl1";
             this.ImagendescLvl1.Size = new System.Drawing.Size(448, 234);
             this.ImagendescLvl1.TabIndex = 1;
@@ -111,12 +112,28 @@
             // 
             // animalname
             // 
-            this.animalname.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.animalname.Location = new System.Drawing.Point(58, 140);
-            this.animalname.Name = "animalname";
-            this.animalname.Size = new System.Drawing.Size(255, 39);
-            this.animalname.TabIndex = 7;
+            animalname.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            animalname.Location = new System.Drawing.Point(58, 140);
+            animalname.Name = "animalname";
+            animalname.Size = new System.Drawing.Size(255, 39);
+            animalname.TabIndex = 7;
             // 
+<<<<<<< HEAD
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(753, 8);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(179, 49);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Regresar";
+            this.button1.UseVisualStyleBackColor = false;
+=======
             // btn_regresar
             // 
             this.btn_regresar.BackColor = System.Drawing.Color.Transparent;
@@ -132,6 +149,7 @@
             this.btn_regresar.Text = "Regresar";
             this.btn_regresar.UseVisualStyleBackColor = false;
             this.btn_regresar.Click += new System.EventHandler(this.btn_regresar_Click);
+>>>>>>> 96615c5df4b365898d58dbe70da719836daf50ef
             // 
             // label1
             // 
@@ -153,27 +171,20 @@
             this.label2.TabIndex = 11;
             this.label2.Text = "Writing here";
             // 
-            // btn_verificar
-            // 
-            this.btn_verificar.Location = new System.Drawing.Point(420, 439);
-            this.btn_verificar.Name = "btn_verificar";
-            this.btn_verificar.Size = new System.Drawing.Size(75, 23);
-            this.btn_verificar.TabIndex = 12;
-            this.btn_verificar.Text = "puta";
-            this.btn_verificar.UseVisualStyleBackColor = true;
-            this.btn_verificar.Click += new System.EventHandler(this.btn_verificar_Click);
-            // 
             // P_lvl1Principiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
-            this.Controls.Add(this.btn_verificar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+<<<<<<< HEAD
+            this.Controls.Add(this.button1);
+            this.Controls.Add(animalname);
+=======
             this.Controls.Add(this.btn_regresar);
             this.Controls.Add(this.animalname);
-            this.Controls.Add(this.tb_write);
+            this.Controls.Add(this.EscribiranimalName);
             this.Controls.Add(this.lblt1);
             this.Controls.Add(this.lblp1);
             this.Controls.Add(this.Time1);
@@ -182,7 +193,6 @@
             this.Controls.Add(this.fondolvl1);
             this.Name = "P_lvl1Principiante";
             this.Text = "P_lvl1Principiante";
-            this.Load += new System.EventHandler(this.P_lvl1Principiante_Load);
             ((System.ComponentModel.ISupportInitialize)(this.fondolvl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagendescLvl1)).EndInit();
             this.ResumeLayout(false);
@@ -198,11 +208,11 @@
         private System.Windows.Forms.Label Time1;
         private System.Windows.Forms.Label lblp1;
         private System.Windows.Forms.Label lblt1;
-        private System.Windows.Forms.TextBox tb_write;
+        private System.Windows.Forms.TextBox EscribiranimalName;
         private System.Windows.Forms.TextBox animalname;
         private System.Windows.Forms.Button btn_regresar;
+>>>>>>> 96615c5df4b365898d58dbe70da719836daf50ef
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_verificar;
     }
 }
