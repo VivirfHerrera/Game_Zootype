@@ -26,11 +26,17 @@ namespace Zootype
 
         }
 
+<<<<<<< HEAD
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+=======
         private void btn_regresar_Click(object sender, EventArgs e)
         {
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
+>>>>>>> 96615c5df4b365898d58dbe70da719836daf50ef
         }
 
         private void P_lvl1Principiante_Load(object sender, EventArgs e)
