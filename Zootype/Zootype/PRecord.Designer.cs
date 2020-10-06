@@ -320,6 +320,7 @@
             this.DoubleBuffered = true;
             this.Name = "PRecord";
             this.Text = "Record";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.PRecord_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

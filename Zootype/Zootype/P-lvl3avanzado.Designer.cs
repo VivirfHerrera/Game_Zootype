@@ -232,6 +232,7 @@
             this.Controls.Add(this.Fondolvl3);
             this.Name = "P_lvl3avanzado";
             this.Text = "Avanzado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.imgnomlv3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Fondolvl3)).EndInit();
             this.ResumeLayout(false);

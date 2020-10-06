@@ -32,15 +32,19 @@ namespace Zootype
 
         }
 
+        int score = 0;
         private void btn_verificar_Click(object sender, EventArgs e)
         {
             contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1").ToLower();
             Console.WriteLine(contents);
             if (tb_write.Text.ToLower().CompareTo(contents) == 0)
             {
+                score++;
+                Points1.Text = "" + score;
                 nuevaImagen();
                 tb_write.Clear();
             }
+            
         }
         public void nuevaImagen()
         {
@@ -80,6 +84,13 @@ namespace Zootype
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
+        }
+
+        
+
+        private void lblp1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

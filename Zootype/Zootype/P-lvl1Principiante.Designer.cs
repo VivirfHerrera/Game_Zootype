@@ -47,6 +47,7 @@
             // 
             // fondolvl1
             // 
+            this.fondolvl1.InitialImage = null;
             this.fondolvl1.Location = new System.Drawing.Point(-7, -29);
             this.fondolvl1.Name = "fondolvl1";
             this.fondolvl1.Size = new System.Drawing.Size(960, 540);
@@ -65,7 +66,7 @@
             // 
             this.Points1.AutoSize = true;
             this.Points1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Points1.Location = new System.Drawing.Point(27, 36);
+            this.Points1.Location = new System.Drawing.Point(98, 34);
             this.Points1.Name = "Points1";
             this.Points1.Size = new System.Drawing.Size(50, 21);
             this.Points1.TabIndex = 2;
@@ -75,7 +76,7 @@
             // 
             this.Time1.AutoSize = true;
             this.Time1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Time1.Location = new System.Drawing.Point(106, 36);
+            this.Time1.Location = new System.Drawing.Point(320, 34);
             this.Time1.Name = "Time1";
             this.Time1.Size = new System.Drawing.Size(55, 21);
             this.Time1.TabIndex = 3;
@@ -85,28 +86,29 @@
             // 
             this.lblp1.AutoSize = true;
             this.lblp1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblp1.Location = new System.Drawing.Point(28, 57);
+            this.lblp1.Location = new System.Drawing.Point(99, 55);
             this.lblp1.Name = "lblp1";
-            this.lblp1.Size = new System.Drawing.Size(51, 17);
+            this.lblp1.Size = new System.Drawing.Size(48, 17);
             this.lblp1.TabIndex = 4;
-            this.lblp1.Text = "Puntos";
+            this.lblp1.Text = "SCORE";
+            this.lblp1.Click += new System.EventHandler(this.lblp1_Click);
             // 
             // lblt1
             // 
             this.lblt1.AutoSize = true;
             this.lblt1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblt1.Location = new System.Drawing.Point(107, 57);
+            this.lblt1.Location = new System.Drawing.Point(321, 55);
             this.lblt1.Name = "lblt1";
-            this.lblt1.Size = new System.Drawing.Size(53, 17);
+            this.lblt1.Size = new System.Drawing.Size(38, 17);
             this.lblt1.TabIndex = 5;
-            this.lblt1.Text = "Tiempo";
+            this.lblt1.Text = "TIME";
             // 
             // tb_write
             // 
             this.tb_write.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.tb_write.Location = new System.Drawing.Point(226, 350);
+            this.tb_write.Location = new System.Drawing.Point(95, 365);
             this.tb_write.Name = "tb_write";
-            this.tb_write.Size = new System.Drawing.Size(295, 39);
+            this.tb_write.Size = new System.Drawing.Size(280, 39);
             this.tb_write.TabIndex = 6;
             // 
             // btn_regresar
@@ -129,7 +131,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 120);
+            this.label1.Location = new System.Drawing.Point(194, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 10;
@@ -139,7 +141,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(136, 365);
+            this.label2.Location = new System.Drawing.Point(98, 345);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 11;
@@ -151,14 +153,14 @@
             this.btn_verificar.Name = "btn_verificar";
             this.btn_verificar.Size = new System.Drawing.Size(75, 23);
             this.btn_verificar.TabIndex = 12;
-            this.btn_verificar.Text = "puta";
+            this.btn_verificar.Text = "NEXT";
             this.btn_verificar.UseVisualStyleBackColor = true;
             this.btn_verificar.Click += new System.EventHandler(this.btn_verificar_Click);
             // 
             // animalname
             // 
             this.animalname.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.animalname.Location = new System.Drawing.Point(58, 140);
+            this.animalname.Location = new System.Drawing.Point(139, 200);
             this.animalname.Name = "animalname";
             this.animalname.Size = new System.Drawing.Size(162, 39);
             this.animalname.TabIndex = 13;
@@ -167,7 +169,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 501);
+            this.ClientSize = new System.Drawing.Size(944, 504);
             this.Controls.Add(this.animalname);
             this.Controls.Add(this.btn_verificar);
             this.Controls.Add(this.label2);
@@ -181,7 +183,8 @@
             this.Controls.Add(this.ImagendescLvl1);
             this.Controls.Add(this.fondolvl1);
             this.Name = "P_lvl1Principiante";
-            this.Text = "P_lvl1Principiante";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Nivel 1 (Principiante)";
             this.Load += new System.EventHandler(this.P_lvl1Principiante_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.fondolvl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagendescLvl1)).EndInit();

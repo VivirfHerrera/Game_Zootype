@@ -126,6 +126,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "PInicio";
             this.Text = "Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

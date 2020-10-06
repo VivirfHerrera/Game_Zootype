@@ -52,7 +52,7 @@
             // 
             this.Points2.AutoSize = true;
             this.Points2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Points2.Location = new System.Drawing.Point(27, 36);
+            this.Points2.Location = new System.Drawing.Point(86, 36);
             this.Points2.Name = "Points2";
             this.Points2.Size = new System.Drawing.Size(50, 21);
             this.Points2.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             this.Tiempo2.AutoSize = true;
             this.Tiempo2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tiempo2.Location = new System.Drawing.Point(106, 36);
+            this.Tiempo2.Location = new System.Drawing.Point(355, 36);
             this.Tiempo2.Name = "Tiempo2";
             this.Tiempo2.Size = new System.Drawing.Size(55, 21);
             this.Tiempo2.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             this.lblp2.AutoSize = true;
             this.lblp2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblp2.Location = new System.Drawing.Point(28, 57);
+            this.lblp2.Location = new System.Drawing.Point(85, 63);
             this.lblp2.Name = "lblp2";
             this.lblp2.Size = new System.Drawing.Size(51, 17);
             this.lblp2.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             this.lblt2.AutoSize = true;
             this.lblt2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblt2.Location = new System.Drawing.Point(107, 57);
+            this.lblt2.Location = new System.Drawing.Point(356, 57);
             this.lblt2.Name = "lblt2";
             this.lblt2.Size = new System.Drawing.Size(53, 17);
             this.lblt2.TabIndex = 3;
@@ -134,9 +134,9 @@
             // 
             // Fondolvl2
             // 
-            this.Fondolvl2.Location = new System.Drawing.Point(-9, -33);
+            this.Fondolvl2.Location = new System.Drawing.Point(-9, -9);
             this.Fondolvl2.Name = "Fondolvl2";
-            this.Fondolvl2.Size = new System.Drawing.Size(960, 540);
+            this.Fondolvl2.Size = new System.Drawing.Size(960, 516);
             this.Fondolvl2.TabIndex = 9;
             this.Fondolvl2.TabStop = false;
             // 
@@ -208,6 +208,7 @@
             this.btnValidar.TabIndex = 16;
             this.btnValidar.Text = "Validar";
             this.btnValidar.UseVisualStyleBackColor = false;
+            this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
             // P_lvl2intermedio
             // 
@@ -230,7 +231,9 @@
             this.Controls.Add(this.Points2);
             this.Controls.Add(this.Fondolvl2);
             this.Name = "P_lvl2intermedio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Intermedio";
+            this.Load += new System.EventHandler(this.P_lvl1Principiante_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.Imgdescrlvl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Fondolvl2)).EndInit();
             this.ResumeLayout(false);

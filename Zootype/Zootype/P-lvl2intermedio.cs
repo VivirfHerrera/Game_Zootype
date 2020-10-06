@@ -17,11 +17,68 @@ namespace Zootype
             InitializeComponent();
         }
 
+        string[] imagenes;
+        string contents = "";
+        int posImg = 0;
+
+
         private void btn_regresarlvl2_Click(object sender, EventArgs e)
         {
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
         }
+
+        
+        int score = 0;
+        private void btnValidar_Click(object sender, EventArgs e)
+        {
+            
+            
+                contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1").ToLower();
+                Console.WriteLine(contents);
+                if (escribanimalname2.Text.ToLower().CompareTo(contents) == 0)
+                {
+                    score++;
+                    Points2.Text = "" + score;
+                    nuevaImagen();
+                    escribanimalname2.Clear();
+                }   
+        }
+
+        public void nuevaImagen()
+        {
+            if (posImg < imagenes.Length - 1)
+            {
+                posImg++;
+                Imgdescrlvl2.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[posImg]);
+                contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
+                Animalname2.Text = contents;
+            }
+
+        }
+
+        private void P_lvl1Principiante_Load_1(object sender, EventArgs e)
+        {
+            Random random = new Random();
+            int r = random.Next(1, 19);
+            String[] a = new String[18];
+
+            for (int i = 1; i <= a.Length; i++)
+            {
+                if (i < 10)
+                {
+                    a[i - 1] += "0";
+                }
+                a[i - 1] += i;
+            }
+            imagenes = a.OrderBy(x => random.Next()).ToArray();
+            Imgdescrlvl2.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[0]);
+            contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
+            Animalname2.Text = contents;
+
+        }
+
+        
     }
 }
