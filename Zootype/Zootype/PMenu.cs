@@ -17,19 +17,16 @@ namespace Zootype
             InitializeComponent();
         }
 
-        private void btnSalida_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
-        }        
+        }
+        
 
-        private void btnInstrucciones_Click_1(object sender, EventArgs e)
+        private void btnInstrucciones_Click(object sender, EventArgs e)
         {
             Pinstrucciones pInstrucciones = new Pinstrucciones();
             pInstrucciones.Show();
@@ -43,6 +40,16 @@ namespace Zootype
             this.Dispose();
         }
 
-        
+        private void btnSalida_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            PConfig pConfig = new PConfig();
+            pConfig.Show();
+            this.Dispose();
+        }
     }
 }
