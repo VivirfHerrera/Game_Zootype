@@ -24,11 +24,27 @@ namespace Zootype
             this.Dispose();
         }
 
+        private void btnlvl2_Click(object sender, EventArgs e)
+        {
+            P_lvl2intermedio p_Lvl2 = new P_lvl2intermedio();
+            p_Lvl2.Show();
+            this.Dispose();
+        }
+
+        private void btnlvl3_Click(object sender, EventArgs e)
+        {
+            P_lvl3avanzado p_Lvl3 = new P_lvl3avanzado();
+            p_Lvl3.Show();
+            this.Dispose();
+        }
+
         private void btnregresarPin_Click(object sender, EventArgs e)
         {
             PMenu pMenu = new PMenu();
             pMenu.Show();
             this.Dispose();
         }
+
+        
     }
 }

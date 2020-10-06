@@ -51,6 +51,7 @@
             this.btnlvl3.TabIndex = 0;
             this.btnlvl3.Text = "Avanzado";
             this.btnlvl3.UseVisualStyleBackColor = false;
+            this.btnlvl3.Click += new System.EventHandler(this.btnlvl3_Click);
             // 
             // btnlvl2
             // 
@@ -67,6 +68,7 @@
             this.btnlvl2.TabIndex = 1;
             this.btnlvl2.Text = "Intermedio";
             this.btnlvl2.UseVisualStyleBackColor = false;
+            this.btnlvl2.Click += new System.EventHandler(this.btnlvl2_Click);
             // 
             // btnlvl1
             // 

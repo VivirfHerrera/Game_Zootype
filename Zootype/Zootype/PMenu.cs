@@ -27,6 +27,22 @@ namespace Zootype
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
+        }        
+
+        private void btnInstrucciones_Click_1(object sender, EventArgs e)
+        {
+            Pinstrucciones pInstrucciones = new Pinstrucciones();
+            pInstrucciones.Show();
+            this.Dispose();
         }
+
+        private void btnRecord_Click(object sender, EventArgs e)
+        {
+            PRecord pRecord = new PRecord();
+            pRecord.Show();
+            this.Dispose();
+        }
+
+        
     }
 }

@@ -39,7 +39,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnregresar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -158,15 +158,16 @@
             this.checkBox5.Text = "Herviboros";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnregresar
             // 
-            this.button1.BackColor = System.Drawing.Color.BurlyWood;
-            this.button1.Location = new System.Drawing.Point(403, 407);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 37);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Regresar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnregresar.BackColor = System.Drawing.Color.BurlyWood;
+            this.btnregresar.Location = new System.Drawing.Point(403, 407);
+            this.btnregresar.Name = "btnregresar";
+            this.btnregresar.Size = new System.Drawing.Size(127, 37);
+            this.btnregresar.TabIndex = 14;
+            this.btnregresar.Text = "Regresar";
+            this.btnregresar.UseVisualStyleBackColor = false;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
             // button2
             // 
@@ -185,7 +186,7 @@
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(696, 459);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.label4);
@@ -217,7 +218,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnregresar;
         private System.Windows.Forms.Button button2;
     }
 }

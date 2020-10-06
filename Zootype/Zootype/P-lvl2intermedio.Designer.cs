@@ -39,7 +39,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Fondolvl2 = new System.Windows.Forms.PictureBox();
-            this.btnRegresarlvl2 = new System.Windows.Forms.Button();
+            this.btn_regresarlvl2 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnsiguiente = new System.Windows.Forms.Button();
@@ -140,20 +140,21 @@
             this.Fondolvl2.TabIndex = 9;
             this.Fondolvl2.TabStop = false;
             // 
-            // btnRegresarlvl2
+            // btn_regresarlvl2
             // 
-            this.btnRegresarlvl2.BackColor = System.Drawing.Color.Transparent;
-            this.btnRegresarlvl2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRegresarlvl2.BackgroundImage")));
-            this.btnRegresarlvl2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnRegresarlvl2.FlatAppearance.BorderSize = 0;
-            this.btnRegresarlvl2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegresarlvl2.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresarlvl2.Location = new System.Drawing.Point(765, 6);
-            this.btnRegresarlvl2.Name = "btnRegresarlvl2";
-            this.btnRegresarlvl2.Size = new System.Drawing.Size(167, 51);
-            this.btnRegresarlvl2.TabIndex = 10;
-            this.btnRegresarlvl2.Text = "Regresar";
-            this.btnRegresarlvl2.UseVisualStyleBackColor = false;
+            this.btn_regresarlvl2.BackColor = System.Drawing.Color.Transparent;
+            this.btn_regresarlvl2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_regresarlvl2.BackgroundImage")));
+            this.btn_regresarlvl2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_regresarlvl2.FlatAppearance.BorderSize = 0;
+            this.btn_regresarlvl2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_regresarlvl2.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_regresarlvl2.Location = new System.Drawing.Point(765, 6);
+            this.btn_regresarlvl2.Name = "btn_regresarlvl2";
+            this.btn_regresarlvl2.Size = new System.Drawing.Size(167, 51);
+            this.btn_regresarlvl2.TabIndex = 10;
+            this.btn_regresarlvl2.Text = "Regresar";
+            this.btn_regresarlvl2.UseVisualStyleBackColor = false;
+            this.btn_regresarlvl2.Click += new System.EventHandler(this.btn_regresarlvl2_Click);
             // 
             // button2
             // 
@@ -217,7 +218,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnsiguiente);
             this.Controls.Add(this.btnValidar);
-            this.Controls.Add(this.btnRegresarlvl2);
+            this.Controls.Add(this.btn_regresarlvl2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Imgdescrlvl2);
@@ -249,7 +250,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox Fondolvl2;
-        private System.Windows.Forms.Button btnRegresarlvl2;
+        private System.Windows.Forms.Button btn_regresarlvl2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnsiguiente;

@@ -155,6 +155,7 @@
             this.btnregres3.TabIndex = 15;
             this.btnregres3.Text = "Regresar";
             this.btnregres3.UseVisualStyleBackColor = false;
+            this.btnregres3.Click += new System.EventHandler(this.btnregres3_Click);
             // 
             // button2
             // 

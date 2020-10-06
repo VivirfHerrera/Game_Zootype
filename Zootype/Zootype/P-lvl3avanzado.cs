@@ -16,5 +16,12 @@ namespace Zootype
         {
             InitializeComponent();
         }
+
+        private void btnregres3_Click(object sender, EventArgs e)
+        {
+            PInicio pInicio = new PInicio();
+            pInicio.Show();
+            this.Dispose();
+        }
     }
 }
