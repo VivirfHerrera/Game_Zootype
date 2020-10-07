@@ -52,7 +52,7 @@
             // 
             this.Points3.AutoSize = true;
             this.Points3.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Points3.Location = new System.Drawing.Point(27, 36);
+            this.Points3.Location = new System.Drawing.Point(82, 36);
             this.Points3.Name = "Points3";
             this.Points3.Size = new System.Drawing.Size(50, 21);
             this.Points3.TabIndex = 0;
@@ -62,7 +62,7 @@
             // 
             this.lblp3.AutoSize = true;
             this.lblp3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblp3.Location = new System.Drawing.Point(28, 57);
+            this.lblp3.Location = new System.Drawing.Point(83, 57);
             this.lblp3.Name = "lblp3";
             this.lblp3.Size = new System.Drawing.Size(51, 17);
             this.lblp3.TabIndex = 1;
@@ -72,7 +72,7 @@
             // 
             this.Time3.AutoSize = true;
             this.Time3.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Time3.Location = new System.Drawing.Point(106, 36);
+            this.Time3.Location = new System.Drawing.Point(424, 36);
             this.Time3.Name = "Time3";
             this.Time3.Size = new System.Drawing.Size(55, 21);
             this.Time3.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             this.lblt3.AutoSize = true;
             this.lblt3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblt3.Location = new System.Drawing.Point(107, 57);
+            this.lblt3.Location = new System.Drawing.Point(425, 57);
             this.lblt3.Name = "lblt3";
             this.lblt3.Size = new System.Drawing.Size(53, 17);
             this.lblt3.TabIndex = 3;
@@ -90,26 +90,29 @@
             // 
             // tbDesc
             // 
-            this.tbDesc.Location = new System.Drawing.Point(51, 142);
+            this.tbDesc.Enabled = false;
+            this.tbDesc.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbDesc.Location = new System.Drawing.Point(86, 124);
             this.tbDesc.Multiline = true;
             this.tbDesc.Name = "tbDesc";
             this.tbDesc.ReadOnly = true;
-            this.tbDesc.Size = new System.Drawing.Size(297, 89);
+            this.tbDesc.Size = new System.Drawing.Size(392, 173);
             this.tbDesc.TabIndex = 4;
             // 
             // tbdescrwrit
             // 
-            this.tbdescrwrit.Location = new System.Drawing.Point(203, 353);
+            this.tbdescrwrit.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbdescrwrit.Location = new System.Drawing.Point(86, 361);
             this.tbdescrwrit.Multiline = true;
             this.tbdescrwrit.Name = "tbdescrwrit";
-            this.tbdescrwrit.Size = new System.Drawing.Size(318, 90);
+            this.tbdescrwrit.Size = new System.Drawing.Size(393, 128);
             this.tbdescrwrit.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(48, 122);
+            this.label1.Location = new System.Drawing.Point(245, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 17);
             this.label1.TabIndex = 6;
@@ -119,7 +122,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(113, 391);
+            this.label2.Location = new System.Drawing.Point(237, 341);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 12;
@@ -209,6 +212,7 @@
             this.btnValidar.TabIndex = 16;
             this.btnValidar.Text = "Validar";
             this.btnValidar.UseVisualStyleBackColor = false;
+            this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
             // P_lvl3avanzado
             // 
@@ -231,8 +235,9 @@
             this.Controls.Add(this.Points3);
             this.Controls.Add(this.Fondolvl3);
             this.Name = "P_lvl3avanzado";
-            this.Text = "Avanzado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Avanzado";
+            this.Load += new System.EventHandler(this.P_lvl3Avanzado_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.imgnomlv3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Fondolvl3)).EndInit();
             this.ResumeLayout(false);

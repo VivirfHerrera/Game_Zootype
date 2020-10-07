@@ -35,15 +35,22 @@ namespace Zootype
         {
             
             
-                contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1").ToLower();
-                Console.WriteLine(contents);
-                if (escribanimalname2.Text.ToLower().CompareTo(contents) == 0)
-                {
-                    score++;
-                    Points2.Text = "" + score;
-                    nuevaImagen();
-                    escribanimalname2.Clear();
-                }   
+            contents = Properties.Resources.ResourceManager.GetString("-" + imagenes[posImg] + "1").ToLower();
+            Console.WriteLine(contents);
+            if (escribanimalname2.Text.ToLower().CompareTo(contents) == 0)
+            {
+                score++;
+                Points2.Text = "" + score;
+                nuevaImagen();
+                escribanimalname2.Clear();
+            }
+            else if (score > 0)
+            {
+                score--;
+                Points2.Text = "" + score;
+                nuevaImagen();
+                escribanimalname2.Clear();
+            }
         }
 
         public void nuevaImagen()
@@ -51,14 +58,14 @@ namespace Zootype
             if (posImg < imagenes.Length - 1)
             {
                 posImg++;
-                Imgdescrlvl2.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[posImg]);
-                contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
+                Imgdescrlvl2.Image = (Image)Properties.Resources.ResourceManager.GetObject("-" + imagenes[posImg]);
+                contents = Properties.Resources.ResourceManager.GetString("-" + imagenes[posImg] + "1");
                 Animalname2.Text = contents;
             }
 
         }
 
-        private void P_lvl1Principiante_Load_1(object sender, EventArgs e)
+        private void P_lvl2Intermedio_Load_1(object sender, EventArgs e)
         {
             Random random = new Random();
             int r = random.Next(1, 19);
@@ -73,12 +80,10 @@ namespace Zootype
                 a[i - 1] += i;
             }
             imagenes = a.OrderBy(x => random.Next()).ToArray();
-            Imgdescrlvl2.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[0]);
-            contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
+            Imgdescrlvl2.Image = (Image)Properties.Resources.ResourceManager.GetObject("-" + imagenes[0]);
+            contents = Properties.Resources.ResourceManager.GetString("-" + imagenes[posImg] + "1");
             Animalname2.Text = contents;
 
         }
-
-        
     }
 }

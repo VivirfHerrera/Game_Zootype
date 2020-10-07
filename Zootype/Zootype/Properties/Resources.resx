@@ -232,4 +232,328 @@
   <data name="btn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\01.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\02.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\03.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\04.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\05.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\06.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\07.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\08.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\09.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\10.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\11.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\12.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\13.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\14.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\15.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\16.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\17.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="-18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl2\18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="-181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl2\18.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\01.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\02.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\03.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\04.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\04.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\05.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\06.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\07.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\07.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\08.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\09.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\09.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\10.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\11.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="T12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\12.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\13.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T141" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\14.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\15.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\16.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\17.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\18.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\19.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="T20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\20.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\21.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\22.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\23.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\24.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\25.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\26.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\27.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\28.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T291" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\29.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\30.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\31.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\32.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\33.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T341" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\34.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\35.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="T36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\animal lvl3\36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T361" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\texto lvl3\36.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

@@ -90,18 +90,21 @@
             // 
             // Animalname2
             // 
+            this.Animalname2.Enabled = false;
             this.Animalname2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.Animalname2.Location = new System.Drawing.Point(58, 140);
             this.Animalname2.Name = "Animalname2";
-            this.Animalname2.Size = new System.Drawing.Size(255, 39);
+            this.Animalname2.ReadOnly = true;
+            this.Animalname2.Size = new System.Drawing.Size(387, 39);
             this.Animalname2.TabIndex = 4;
+            this.Animalname2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // escribanimalname2
             // 
             this.escribanimalname2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.escribanimalname2.Location = new System.Drawing.Point(226, 350);
+            this.escribanimalname2.Location = new System.Drawing.Point(58, 350);
             this.escribanimalname2.Name = "escribanimalname2";
-            this.escribanimalname2.Size = new System.Drawing.Size(295, 39);
+            this.escribanimalname2.Size = new System.Drawing.Size(387, 39);
             this.escribanimalname2.TabIndex = 5;
             // 
             // Imgdescrlvl2
@@ -116,7 +119,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 120);
+            this.label1.Location = new System.Drawing.Point(234, 120);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 7;
@@ -126,7 +129,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(136, 365);
+            this.label2.Location = new System.Drawing.Point(210, 330);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 17);
             this.label2.TabIndex = 8;
@@ -233,7 +236,7 @@
             this.Name = "P_lvl2intermedio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Intermedio";
-            this.Load += new System.EventHandler(this.P_lvl1Principiante_Load_1);
+            this.Load += new System.EventHandler(this.P_lvl2Intermedio_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.Imgdescrlvl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Fondolvl2)).EndInit();
             this.ResumeLayout(false);

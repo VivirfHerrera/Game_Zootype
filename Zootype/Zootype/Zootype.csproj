@@ -243,6 +243,7 @@
     <Content Include="Otras Imagenes\PantallaMenu.png" />
     <Content Include="Otras Imagenes\precors.png" />
     <None Include="Resources\btn2.png" />
+    <None Include="Resources\-01.bmp" />
     <Content Include="Texto lvl1\01.txt" />
     <Content Include="Texto lvl1\02.txt" />
     <Content Include="Texto lvl1\03.txt" />

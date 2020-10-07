@@ -17,29 +17,28 @@ namespace Zootype
         string[] imagenes;
         string contents = "";
         int posImg = 0;
+
         public P_lvl1Principiante()
         {
             InitializeComponent();
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        }    
 
         int score = 0;
         private void btn_verificar_Click(object sender, EventArgs e)
         {
+
             contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1").ToLower();
             Console.WriteLine(contents);
+            
             if (tb_write.Text.ToLower().CompareTo(contents) == 0)
             {
                 score++;
+                Points1.Text = "" + score;
+                nuevaImagen();
+                tb_write.Clear();
+            } else if (score > 0)
+            {
+                score--;
                 Points1.Text = "" + score;
                 nuevaImagen();
                 tb_write.Clear();
@@ -76,7 +75,6 @@ namespace Zootype
             ImagendescLvl1.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[0]);
             contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
             animalname.Text = contents;
-            
         }
 
         private void btn_regresar_Click(object sender, EventArgs e)
@@ -85,8 +83,6 @@ namespace Zootype
             pInicio.Show();
             this.Dispose();
         }
-
-        
 
         private void lblp1_Click(object sender, EventArgs e)
         {
