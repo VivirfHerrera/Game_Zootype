@@ -17,13 +17,13 @@ namespace Zootype
         string[] imagenes;
         string contents = "";
         int posImg = 0;
-
+        int score = 0;
         public P_lvl1Principiante()
         {
             InitializeComponent();
         }    
 
-        int score = 0;
+        
         private void btn_verificar_Click(object sender, EventArgs e)
         {
 
@@ -32,15 +32,28 @@ namespace Zootype
             
             if (tb_write.Text.ToLower().CompareTo(contents) == 0)
             {
-                score++;
-                Points1.Text = "" + score;
-                nuevaImagen();
-                tb_write.Clear();
-            } else if (score > 0)
+                if (posImg == imagenes.Length-1)
+                {
+                    posImg = 0;
+                    score++;
+                    Points1.Text = "" + score;
+                    nuevaImagen();
+                    nuevoBg();
+                    tb_write.Clear();
+                }
+                else
+                {
+                    score++;
+                    Points1.Text = "" + score;
+                    nuevaImagen();
+                    nuevoBg();
+                    tb_write.Clear();
+                }
+            }
+            else if (!(tb_write.Text.ToLower().CompareTo(contents) == 0) && score > 0)
             {
                 score--;
                 Points1.Text = "" + score;
-                nuevaImagen();
                 tb_write.Clear();
             }
             
@@ -55,6 +68,24 @@ namespace Zootype
                 animalname.Text = contents;
             }
 
+        }
+        public void nuevoBg()
+        {
+            if (posImg >= 0 && posImg <= 6)
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("F11");
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            if (posImg >= 7 && posImg <= 12)
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("F12");
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            if (posImg >= 13 && posImg <= 18)
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("F13");
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
         }
 
         private void P_lvl1Principiante_Load_1(object sender, EventArgs e)
@@ -75,6 +106,8 @@ namespace Zootype
             ImagendescLvl1.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[0]);
             contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
             animalname.Text = contents;
+            Console.WriteLine(posImg);
+            nuevoBg();
         }
 
         private void btn_regresar_Click(object sender, EventArgs e)
@@ -84,9 +117,5 @@ namespace Zootype
             this.Dispose();
         }
 
-        private void lblp1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

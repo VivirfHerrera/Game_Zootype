@@ -37,16 +37,28 @@ namespace Zootype
             Console.WriteLine(contents);
             if (tbdescrwrit.Text.ToLower().CompareTo(contents) == 0)
             {
-                score++;
-                Points3.Text = "" + score;
-                nuevaImagen();
-                tbdescrwrit.Clear();
+                if (posImg == imagenes.Length - 1)
+                {
+                    posImg = 0;
+                    score++;
+                    Points3.Text = "" + score;
+                    nuevaImagen();
+                    nuevoBg();
+                    tbdescrwrit.Clear();
+                }
+                else
+                {
+                    score++;
+                    Points3.Text = "" + score;
+                    nuevaImagen();
+                    nuevoBg();
+                    tbdescrwrit.Clear();
+                }
             }
-            else if (score > 0)
+            else if (!(tbdescrwrit.Text.ToLower().CompareTo(contents) == 0) && score > 0)
             {
                 score--;
                 Points3.Text = "" + score;
-                nuevaImagen();
                 tbdescrwrit.Clear();
             }
         }
@@ -61,6 +73,24 @@ namespace Zootype
                 tbDesc.Text = contents;
             }
 
+        }
+        public void nuevoBg()
+        {
+            if (posImg >= 0 && posImg <= 12)
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("F21");
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            if (posImg >= 13 && posImg <= 24)
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("F22");
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            if (posImg >= 25 && posImg <= 36)
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject("F23");
+                this.BackgroundImageLayout = ImageLayout.Stretch;
+            }
         }
 
         private void P_lvl3Avanzado_Load_1(object sender, EventArgs e)
@@ -81,9 +111,7 @@ namespace Zootype
             imgnomlv3.Image = (Image)Properties.Resources.ResourceManager.GetObject("T" + imagenes[0]);
             contents = Properties.Resources.ResourceManager.GetString("T" + imagenes[posImg] + "1");
             tbDesc.Text = contents;
-
-        }
-
-        
+            nuevoBg();
+        } 
     }
 }

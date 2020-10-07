@@ -556,4 +556,31 @@
   <data name="T361" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\texto lvl3\36.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="F11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\terrestrelvl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\aereoslvl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\acuaticolvl1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\terrestrelvl2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\aereoslvl2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\acuaticolvl2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\terrestrelvl3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\aereoslvl3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes fondos lvls\acuaticolvl3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

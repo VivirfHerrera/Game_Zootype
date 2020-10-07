@@ -41,7 +41,6 @@
             this.Fondolvl2 = new System.Windows.Forms.PictureBox();
             this.btn_regresarlvl2 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnsiguiente = new System.Windows.Forms.Button();
             this.btnValidar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Imgdescrlvl2)).BeginInit();
@@ -51,6 +50,7 @@
             // Points2
             // 
             this.Points2.AutoSize = true;
+            this.Points2.BackColor = System.Drawing.Color.Transparent;
             this.Points2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Points2.Location = new System.Drawing.Point(86, 36);
             this.Points2.Name = "Points2";
@@ -61,6 +61,7 @@
             // Tiempo2
             // 
             this.Tiempo2.AutoSize = true;
+            this.Tiempo2.BackColor = System.Drawing.Color.Transparent;
             this.Tiempo2.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tiempo2.Location = new System.Drawing.Point(355, 36);
             this.Tiempo2.Name = "Tiempo2";
@@ -71,6 +72,7 @@
             // lblp2
             // 
             this.lblp2.AutoSize = true;
+            this.lblp2.BackColor = System.Drawing.Color.Transparent;
             this.lblp2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblp2.Location = new System.Drawing.Point(85, 63);
             this.lblp2.Name = "lblp2";
@@ -81,6 +83,7 @@
             // lblt2
             // 
             this.lblt2.AutoSize = true;
+            this.lblt2.BackColor = System.Drawing.Color.Transparent;
             this.lblt2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblt2.Location = new System.Drawing.Point(356, 57);
             this.lblt2.Name = "lblt2";
@@ -118,6 +121,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(234, 120);
             this.label1.Name = "label1";
@@ -128,6 +132,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(210, 330);
             this.label2.Name = "label2";
@@ -137,6 +142,7 @@
             // 
             // Fondolvl2
             // 
+            this.Fondolvl2.BackColor = System.Drawing.Color.Transparent;
             this.Fondolvl2.Location = new System.Drawing.Point(-9, -9);
             this.Fondolvl2.Name = "Fondolvl2";
             this.Fondolvl2.Size = new System.Drawing.Size(960, 516);
@@ -174,17 +180,9 @@
             this.button2.Text = "Reiniciar";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Red;
-            this.textBox1.Location = new System.Drawing.Point(630, 395);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 51);
-            this.textBox1.TabIndex = 18;
-            // 
             // btnsiguiente
             // 
+            this.btnsiguiente.BackColor = System.Drawing.Color.Transparent;
             this.btnsiguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsiguiente.BackgroundImage")));
             this.btnsiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnsiguiente.FlatAppearance.BorderSize = 0;
@@ -195,7 +193,7 @@
             this.btnsiguiente.Size = new System.Drawing.Size(130, 36);
             this.btnsiguiente.TabIndex = 17;
             this.btnsiguiente.Text = "Siguiente";
-            this.btnsiguiente.UseVisualStyleBackColor = true;
+            this.btnsiguiente.UseVisualStyleBackColor = false;
             // 
             // btnValidar
             // 
@@ -219,7 +217,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnsiguiente);
             this.Controls.Add(this.btnValidar);
             this.Controls.Add(this.btn_regresarlvl2);
@@ -258,7 +255,6 @@
         private System.Windows.Forms.PictureBox Fondolvl2;
         private System.Windows.Forms.Button btn_regresarlvl2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnsiguiente;
         private System.Windows.Forms.Button btnValidar;
     }

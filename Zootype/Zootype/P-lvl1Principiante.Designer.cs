@@ -47,6 +47,8 @@
             // 
             // fondolvl1
             // 
+            this.fondolvl1.BackColor = System.Drawing.Color.Transparent;
+            this.fondolvl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.fondolvl1.InitialImage = null;
             this.fondolvl1.Location = new System.Drawing.Point(-15, -29);
             this.fondolvl1.Name = "fondolvl1";
@@ -65,6 +67,7 @@
             // Points1
             // 
             this.Points1.AutoSize = true;
+            this.Points1.BackColor = System.Drawing.Color.Transparent;
             this.Points1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Points1.Location = new System.Drawing.Point(98, 34);
             this.Points1.Name = "Points1";
@@ -75,6 +78,7 @@
             // Time1
             // 
             this.Time1.AutoSize = true;
+            this.Time1.BackColor = System.Drawing.Color.Transparent;
             this.Time1.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Time1.Location = new System.Drawing.Point(320, 34);
             this.Time1.Name = "Time1";
@@ -85,17 +89,18 @@
             // lblp1
             // 
             this.lblp1.AutoSize = true;
+            this.lblp1.BackColor = System.Drawing.Color.Transparent;
             this.lblp1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblp1.Location = new System.Drawing.Point(99, 55);
             this.lblp1.Name = "lblp1";
             this.lblp1.Size = new System.Drawing.Size(48, 17);
             this.lblp1.TabIndex = 4;
             this.lblp1.Text = "SCORE";
-            this.lblp1.Click += new System.EventHandler(this.lblp1_Click);
             // 
             // lblt1
             // 
             this.lblt1.AutoSize = true;
+            this.lblt1.BackColor = System.Drawing.Color.Transparent;
             this.lblt1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblt1.Location = new System.Drawing.Point(321, 55);
             this.lblt1.Name = "lblt1";
@@ -130,6 +135,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(215, 110);
             this.label1.Name = "label1";
@@ -140,6 +146,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(193, 345);
             this.label2.Name = "label2";
