@@ -31,8 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(P_lvl3avanzado));
             this.Points3 = new System.Windows.Forms.Label();
             this.lblp3 = new System.Windows.Forms.Label();
-            this.Time3 = new System.Windows.Forms.Label();
-            this.lblt3 = new System.Windows.Forms.Label();
             this.tbDesc = new System.Windows.Forms.TextBox();
             this.tbdescrwrit = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,8 +38,6 @@
             this.imgnomlv3 = new System.Windows.Forms.PictureBox();
             this.Fondolvl3 = new System.Windows.Forms.PictureBox();
             this.btnregres3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.btnsiguiente = new System.Windows.Forms.Button();
             this.btnValidar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imgnomlv3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Fondolvl3)).BeginInit();
@@ -50,46 +46,28 @@
             // Points3
             // 
             this.Points3.AutoSize = true;
-            this.Points3.BackColor = System.Drawing.Color.Transparent;
-            this.Points3.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Points3.Location = new System.Drawing.Point(82, 36);
+            this.Points3.BackColor = System.Drawing.Color.Black;
+            this.Points3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Points3.Font = new System.Drawing.Font("Unispace", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Points3.ForeColor = System.Drawing.Color.Chartreuse;
+            this.Points3.Location = new System.Drawing.Point(52, 20);
             this.Points3.Name = "Points3";
-            this.Points3.Size = new System.Drawing.Size(50, 21);
+            this.Points3.Size = new System.Drawing.Size(35, 37);
             this.Points3.TabIndex = 0;
-            this.Points3.Text = "0000";
+            this.Points3.Text = "0";
             // 
             // lblp3
             // 
             this.lblp3.AutoSize = true;
-            this.lblp3.BackColor = System.Drawing.Color.Transparent;
-            this.lblp3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblp3.Location = new System.Drawing.Point(83, 57);
+            this.lblp3.BackColor = System.Drawing.Color.Black;
+            this.lblp3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblp3.Font = new System.Drawing.Font("Unispace", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblp3.ForeColor = System.Drawing.Color.Chartreuse;
+            this.lblp3.Location = new System.Drawing.Point(24, 57);
             this.lblp3.Name = "lblp3";
-            this.lblp3.Size = new System.Drawing.Size(51, 17);
+            this.lblp3.Size = new System.Drawing.Size(90, 31);
             this.lblp3.TabIndex = 1;
-            this.lblp3.Text = "Puntos";
-            // 
-            // Time3
-            // 
-            this.Time3.AutoSize = true;
-            this.Time3.BackColor = System.Drawing.Color.Transparent;
-            this.Time3.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Time3.Location = new System.Drawing.Point(424, 36);
-            this.Time3.Name = "Time3";
-            this.Time3.Size = new System.Drawing.Size(55, 21);
-            this.Time3.TabIndex = 2;
-            this.Time3.Text = "00:00";
-            // 
-            // lblt3
-            // 
-            this.lblt3.AutoSize = true;
-            this.lblt3.BackColor = System.Drawing.Color.Transparent;
-            this.lblt3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblt3.Location = new System.Drawing.Point(425, 57);
-            this.lblt3.Name = "lblt3";
-            this.lblt3.Size = new System.Drawing.Size(53, 17);
-            this.lblt3.TabIndex = 3;
-            this.lblt3.Text = "Tiempo";
+            this.lblp3.Text = "SCORE";
             // 
             // tbDesc
             // 
@@ -115,10 +93,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(245, 92);
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label1.Location = new System.Drawing.Point(205, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 17);
+            this.label1.Size = new System.Drawing.Size(137, 26);
             this.label1.TabIndex = 6;
             this.label1.Text = "Description";
             // 
@@ -126,12 +106,14 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(237, 341);
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label2.Location = new System.Drawing.Point(217, 337);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 17);
+            this.label2.Size = new System.Drawing.Size(116, 23);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Writing here";
+            this.label2.Text = "Write here";
             // 
             // imgnomlv3
             // 
@@ -158,43 +140,13 @@
             this.btnregres3.FlatAppearance.BorderSize = 0;
             this.btnregres3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnregres3.Font = new System.Drawing.Font("Segoe Print", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregres3.Location = new System.Drawing.Point(732, 9);
+            this.btnregres3.Location = new System.Drawing.Point(706, 9);
             this.btnregres3.Name = "btnregres3";
             this.btnregres3.Size = new System.Drawing.Size(200, 48);
             this.btnregres3.TabIndex = 15;
-            this.btnregres3.Text = "Regresar";
+            this.btnregres3.Text = "Back";
             this.btnregres3.UseVisualStyleBackColor = false;
             this.btnregres3.Click += new System.EventHandler(this.btnregres3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(535, 458);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 36);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Reiniciar";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // btnsiguiente
-            // 
-            this.btnsiguiente.BackColor = System.Drawing.Color.Transparent;
-            this.btnsiguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsiguiente.BackgroundImage")));
-            this.btnsiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnsiguiente.FlatAppearance.BorderSize = 0;
-            this.btnsiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsiguiente.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold);
-            this.btnsiguiente.Location = new System.Drawing.Point(809, 458);
-            this.btnsiguiente.Name = "btnsiguiente";
-            this.btnsiguiente.Size = new System.Drawing.Size(130, 36);
-            this.btnsiguiente.TabIndex = 17;
-            this.btnsiguiente.Text = "Siguiente";
-            this.btnsiguiente.UseVisualStyleBackColor = false;
             // 
             // btnValidar
             // 
@@ -204,11 +156,11 @@
             this.btnValidar.FlatAppearance.BorderSize = 0;
             this.btnValidar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnValidar.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold);
-            this.btnValidar.Location = new System.Drawing.Point(671, 458);
+            this.btnValidar.Location = new System.Drawing.Point(674, 422);
             this.btnValidar.Name = "btnValidar";
-            this.btnValidar.Size = new System.Drawing.Size(130, 36);
+            this.btnValidar.Size = new System.Drawing.Size(127, 30);
             this.btnValidar.TabIndex = 16;
-            this.btnValidar.Text = "Validar";
+            this.btnValidar.Text = "Next";
             this.btnValidar.UseVisualStyleBackColor = false;
             this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
@@ -217,8 +169,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 501);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.btnsiguiente);
             this.Controls.Add(this.btnValidar);
             this.Controls.Add(this.btnregres3);
             this.Controls.Add(this.imgnomlv3);
@@ -226,8 +176,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbdescrwrit);
             this.Controls.Add(this.tbDesc);
-            this.Controls.Add(this.lblt3);
-            this.Controls.Add(this.Time3);
             this.Controls.Add(this.lblp3);
             this.Controls.Add(this.Points3);
             this.Controls.Add(this.Fondolvl3);
@@ -246,8 +194,6 @@
 
         private System.Windows.Forms.Label Points3;
         private System.Windows.Forms.Label lblp3;
-        private System.Windows.Forms.Label Time3;
-        private System.Windows.Forms.Label lblt3;
         private System.Windows.Forms.TextBox tbDesc;
         private System.Windows.Forms.TextBox tbdescrwrit;
         private System.Windows.Forms.Label label1;
@@ -255,8 +201,6 @@
         private System.Windows.Forms.PictureBox imgnomlv3;
         private System.Windows.Forms.PictureBox Fondolvl3;
         private System.Windows.Forms.Button btnregres3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btnsiguiente;
         private System.Windows.Forms.Button btnValidar;
     }
 }

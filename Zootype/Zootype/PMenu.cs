@@ -42,7 +42,14 @@ namespace Zootype
 
         private void btnSalida_Click(object sender, EventArgs e)
         {
-            this.Close();
+            string message = "Do you want to close ZooType?";
+            string title = "Close Window";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         private void btnConfig_Click(object sender, EventArgs e)

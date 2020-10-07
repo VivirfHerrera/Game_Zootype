@@ -114,5 +114,10 @@ namespace Zootype
             Animalname2.Text = contents;
             nuevoBg();
         }
+
+        private void lblp2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

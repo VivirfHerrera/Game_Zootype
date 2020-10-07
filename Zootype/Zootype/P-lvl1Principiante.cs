@@ -37,7 +37,6 @@ namespace Zootype
                     posImg = 0;
                     score++;
                     Points1.Text = "" + score;
-                    nuevaImagen();
                     nuevoBg();
                     tb_write.Clear();
                 }
@@ -48,6 +47,20 @@ namespace Zootype
                     nuevaImagen();
                     nuevoBg();
                     tb_write.Clear();
+
+                    if (score == 15)
+                    {
+                        string message = "¡Felicidades Completaste El Nivel Principiante Con 10 Puntos!";
+                        string title = "Close Window";
+                        MessageBoxButtons buttons = MessageBoxButtons.OK;
+                        DialogResult result = MessageBox.Show(message, title, buttons);
+                        if (result == DialogResult.OK)
+                        {
+                            PInicio pInicio = new PInicio();
+                            pInicio.Show();
+                            this.Dispose();
+                        }
+                    }
                 }
             }
             else if (!(tb_write.Text.ToLower().CompareTo(contents) == 0) && score > 0)
