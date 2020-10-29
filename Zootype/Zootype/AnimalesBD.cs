@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace Zootype
 {
-    public partial class P_lvl1Principiante : Form
+    public partial class AnimalesBD : Form
     {
-        public P_lvl1Principiante()
+        public AnimalesBD()
         {
             InitializeComponent();
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
 
-        private void P_lvl1Principiante_Load(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }

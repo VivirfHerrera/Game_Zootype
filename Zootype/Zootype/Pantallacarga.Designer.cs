@@ -40,7 +40,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-3, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(-16, -5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(640, 366);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -55,16 +55,18 @@
             this.CargaBar.Name = "CargaBar";
             this.CargaBar.Size = new System.Drawing.Size(406, 29);
             this.CargaBar.TabIndex = 1;
+            this.CargaBar.UseWaitCursor = true;
             // 
             // trespuntos
             // 
             this.trespuntos.AutoSize = true;
             this.trespuntos.Enabled = false;
-            this.trespuntos.Location = new System.Drawing.Point(107, 311);
+            this.trespuntos.Location = new System.Drawing.Point(108, 316);
             this.trespuntos.Name = "trespuntos";
             this.trespuntos.Size = new System.Drawing.Size(16, 13);
             this.trespuntos.TabIndex = 2;
             this.trespuntos.Text = "...";
+            this.trespuntos.UseWaitCursor = true;
             this.trespuntos.Visible = false;
             // 
             // timer1
@@ -77,7 +79,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(636, 358);
+            this.ClientSize = new System.Drawing.Size(623, 358);
             this.Controls.Add(this.trespuntos);
             this.Controls.Add(this.CargaBar);
             this.Controls.Add(this.pictureBox1);

@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalesBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimalesBD.Designer.cs">
+      <DependentUpon>AnimalesBD.cs</DependentUpon>
+    </Compile>
     <Compile Include="P-lvl1Principiante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnimalesBD.resx">
+      <DependentUpon>AnimalesBD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="P-lvl1Principiante.resx">
       <DependentUpon>P-lvl1Principiante.cs</DependentUpon>
     </EmbeddedResource>

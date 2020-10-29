@@ -41,6 +41,7 @@
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnanimales = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -178,12 +179,25 @@
             this.button2.Text = "Guardar";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btnanimales
+            // 
+            this.btnanimales.BackColor = System.Drawing.Color.Peru;
+            this.btnanimales.FlatAppearance.BorderSize = 0;
+            this.btnanimales.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnanimales.Location = new System.Drawing.Point(12, 407);
+            this.btnanimales.Name = "btnanimales";
+            this.btnanimales.Size = new System.Drawing.Size(124, 37);
+            this.btnanimales.TabIndex = 16;
+            this.btnanimales.Text = "Ver animales";
+            this.btnanimales.UseVisualStyleBackColor = false;
+            // 
             // PConfig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(696, 459);
+            this.Controls.Add(this.btnanimales);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox5);
@@ -219,5 +233,6 @@
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnanimales;
     }
 }
