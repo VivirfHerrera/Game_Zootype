@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatosAnimales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAnimales.Designer.cs">
+      <DependentUpon>DatosAnimales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConexion.cs" />
     <Compile Include="P-lvl1Principiante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +75,11 @@
     </Compile>
     <Compile Include="Pconfiguracion.Designer.cs">
       <DependentUpon>Pconfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pdss1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pdss1DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="PInicio.cs">
       <SubType>Form</SubType>
@@ -101,6 +113,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DatosAnimales.resx">
+      <DependentUpon>DatosAnimales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="P-lvl1Principiante.resx">
       <DependentUpon>P-lvl1Principiante.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +153,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="pdss1DataSet.xsc">
+      <DependentUpon>pdss1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pdss1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pdss1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pdss1DataSet.xss">
+      <DependentUpon>pdss1DataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
