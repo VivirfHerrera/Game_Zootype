@@ -56,7 +56,7 @@ namespace Zootype
 
                     if (score == 15)
                     {
-                        string message = "¡Felicidades Completaste El Nivel Principiante Con 10 Puntos!";
+                        string message = "¡Felicidades Completaste El Nivel Principiante Con 15 Puntos!";
                         string title = "Close Window";
                         MessageBoxButtons buttons = MessageBoxButtons.OK;
                         DialogResult result = MessageBox.Show(message, title, buttons);
@@ -119,17 +119,6 @@ namespace Zootype
                             + " Error: " + ex.ToString());
             } return null;
         }
-        //public void nuevaImagen()
-        //{
-        //    if (posImg < imagenes.Length - 1)
-        //    {
-        //        posImg++;
-        //        ImagendescLvl1.Image = (Image)Properties.Resources.ResourceManager.GetObject("_" + imagenes[posImg]);
-        //        contents = Properties.Resources.ResourceManager.GetString("_" + imagenes[posImg] + "1");
-        //        animalname.Text = contents;
-        //    }
-
-        //}
         public void nuevoBg()
         {
             if (posImg >= 0 && posImg <= 6)

@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(P_lvl3avanzado));
             this.Points3 = new System.Windows.Forms.Label();
             this.lblp3 = new System.Windows.Forms.Label();
-            this.tbDesc = new System.Windows.Forms.TextBox();
-            this.tbdescrwrit = new System.Windows.Forms.TextBox();
+            this.animaldesc = new System.Windows.Forms.TextBox();
+            this.tb_write = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.imgnomlv3 = new System.Windows.Forms.PictureBox();
@@ -48,11 +48,11 @@
             this.Points3.AutoSize = true;
             this.Points3.BackColor = System.Drawing.Color.Black;
             this.Points3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Points3.Font = new System.Drawing.Font("Unispace", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Points3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Points3.ForeColor = System.Drawing.Color.Chartreuse;
             this.Points3.Location = new System.Drawing.Point(52, 20);
             this.Points3.Name = "Points3";
-            this.Points3.Size = new System.Drawing.Size(35, 37);
+            this.Points3.Size = new System.Drawing.Size(34, 35);
             this.Points3.TabIndex = 0;
             this.Points3.Text = "0";
             // 
@@ -61,33 +61,33 @@
             this.lblp3.AutoSize = true;
             this.lblp3.BackColor = System.Drawing.Color.Black;
             this.lblp3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblp3.Font = new System.Drawing.Font("Unispace", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblp3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblp3.ForeColor = System.Drawing.Color.Chartreuse;
             this.lblp3.Location = new System.Drawing.Point(24, 57);
             this.lblp3.Name = "lblp3";
-            this.lblp3.Size = new System.Drawing.Size(90, 31);
+            this.lblp3.Size = new System.Drawing.Size(105, 31);
             this.lblp3.TabIndex = 1;
             this.lblp3.Text = "SCORE";
             // 
-            // tbDesc
+            // animaldesc
             // 
-            this.tbDesc.Enabled = false;
-            this.tbDesc.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDesc.Location = new System.Drawing.Point(86, 124);
-            this.tbDesc.Multiline = true;
-            this.tbDesc.Name = "tbDesc";
-            this.tbDesc.ReadOnly = true;
-            this.tbDesc.Size = new System.Drawing.Size(392, 173);
-            this.tbDesc.TabIndex = 4;
+            this.animaldesc.Enabled = false;
+            this.animaldesc.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.animaldesc.Location = new System.Drawing.Point(86, 124);
+            this.animaldesc.Multiline = true;
+            this.animaldesc.Name = "animaldesc";
+            this.animaldesc.ReadOnly = true;
+            this.animaldesc.Size = new System.Drawing.Size(392, 173);
+            this.animaldesc.TabIndex = 4;
             // 
-            // tbdescrwrit
+            // tb_write
             // 
-            this.tbdescrwrit.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbdescrwrit.Location = new System.Drawing.Point(86, 361);
-            this.tbdescrwrit.Multiline = true;
-            this.tbdescrwrit.Name = "tbdescrwrit";
-            this.tbdescrwrit.Size = new System.Drawing.Size(393, 128);
-            this.tbdescrwrit.TabIndex = 5;
+            this.tb_write.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_write.Location = new System.Drawing.Point(86, 361);
+            this.tb_write.Multiline = true;
+            this.tb_write.Name = "tb_write";
+            this.tb_write.Size = new System.Drawing.Size(393, 128);
+            this.tb_write.TabIndex = 5;
             // 
             // label1
             // 
@@ -174,8 +174,8 @@
             this.Controls.Add(this.imgnomlv3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.tbdescrwrit);
-            this.Controls.Add(this.tbDesc);
+            this.Controls.Add(this.tb_write);
+            this.Controls.Add(this.animaldesc);
             this.Controls.Add(this.lblp3);
             this.Controls.Add(this.Points3);
             this.Controls.Add(this.Fondolvl3);
@@ -194,8 +194,8 @@
 
         private System.Windows.Forms.Label Points3;
         private System.Windows.Forms.Label lblp3;
-        private System.Windows.Forms.TextBox tbDesc;
-        private System.Windows.Forms.TextBox tbdescrwrit;
+        private System.Windows.Forms.TextBox animaldesc;
+        private System.Windows.Forms.TextBox tb_write;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox imgnomlv3;

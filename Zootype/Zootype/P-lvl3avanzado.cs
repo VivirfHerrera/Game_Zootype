@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,9 +19,11 @@ namespace Zootype
             InitializeComponent();
         }
 
-        string[] imagenes;
+        DBConexion miConn;
         string contents = "";
-        int posImg = 0;
+        int posImg = 1;
+        int score = 0;
+        int totalImagenes = 18;
 
         private void btnregres3_Click(object sender, EventArgs e)
         {
@@ -27,52 +31,97 @@ namespace Zootype
             pInicio.Show();
             this.Dispose();
         }
-
-        int score = 0;
         private void btnValidar_Click(object sender, EventArgs e)
         {
-
-
-            contents = Properties.Resources.ResourceManager.GetString("T" + imagenes[posImg] + "1").ToLower();
+            contents = ObtenerNombre(posImg.ToString());
             Console.WriteLine(contents);
-            if (tbdescrwrit.Text.ToLower().CompareTo(contents) == 0)
+
+            if (tb_write.Text.ToLower().CompareTo(contents.ToLower()) == 0)
             {
-                if (posImg == imagenes.Length - 1)
+                if (posImg == totalImagenes)
                 {
                     posImg = 0;
                     score++;
                     Points3.Text = "" + score;
-                    nuevaImagen();
                     nuevoBg();
-                    tbdescrwrit.Clear();
+                    tb_write.Clear();
                 }
                 else
                 {
+                    posImg++;
                     score++;
                     Points3.Text = "" + score;
-                    nuevaImagen();
+                    contents = ObtenerNombre(posImg.ToString());
+                    ActualizaAnimales(imgnomlv3, posImg.ToString());
+                    animaldesc.Text = contents;
+                    animaldesc.Update();
                     nuevoBg();
-                    tbdescrwrit.Clear();
+                    tb_write.Clear();
+
+                    if (score == 20)
+                    {
+                        string message = "¡Felicidades Completaste El Nivel Avanzado Con 20 Puntos!";
+                        string title = "Close Window";
+                        MessageBoxButtons buttons = MessageBoxButtons.OK;
+                        DialogResult result = MessageBox.Show(message, title, buttons);
+                        if (result == DialogResult.OK)
+                        {
+                            PInicio pInicio = new PInicio();
+                            pInicio.Show();
+                            this.Dispose();
+                        }
+                    }
                 }
             }
-            else if (!(tbdescrwrit.Text.ToLower().CompareTo(contents) == 0) && score > 0)
+            else
             {
-                score--;
+                if (score > 0)
+                {
+                    score--;
+                }
                 Points3.Text = "" + score;
-                tbdescrwrit.Clear();
+                tb_write.Clear();
             }
         }
-
-        public void nuevaImagen()
+        private void ActualizaAnimales(PictureBox sech, String id)
         {
-            if (posImg < imagenes.Length - 1)
+            try
             {
-                posImg++;
-                imgnomlv3.Image = (Image)Properties.Resources.ResourceManager.GetObject("T" + imagenes[posImg]);
-                contents = Properties.Resources.ResourceManager.GetString("T" + imagenes[posImg] + "1");
-                tbDesc.Text = contents;
+                SqlCommand consulta;
+                consulta = new SqlCommand("SELECT imagen FROM pdss1.[dbo].[animaleslvl3] where id_animal = " + id, miConn.ConectaSQL());
+                SqlDataAdapter da = new SqlDataAdapter(consulta);
+                DataSet ds = new DataSet();
+                da.Fill(ds);
+                if (ds.Tables[0].Rows.Count > 0)
+                {
+                    MemoryStream ms = new MemoryStream((byte[])ds.Tables[0].Rows[0]["imagen"]);
+                    sech.Image = new Bitmap(ms);
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al obtener los usuarios desde la Base de Datos."
+                            + " Error: " + ex.ToString());
+            }
+        }
+        private string ObtenerNombre(String id)
+        {
+            try
+            {
+                SqlCommand consulta;
+                DBConexion miConn = new DBConexion();
+                consulta = new SqlCommand("SELECT nombre FROM pdss1.[dbo].[animaleslvl3] where id_animal = " + id, miConn.ConectaSQL());
+                SqlDataAdapter da = new SqlDataAdapter(consulta);
+                string nombre = (string)consulta.ExecuteScalar();
 
+                return nombre;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al obtener los usuarios desde la Base de Datos."
+                            + " Error: " + ex.ToString());
+            }
+            return null;
         }
         public void nuevoBg()
         {
@@ -95,22 +144,11 @@ namespace Zootype
 
         private void P_lvl3Avanzado_Load_1(object sender, EventArgs e)
         {
-            Random random = new Random();
-            int r = random.Next(1, 37);
-            String[] a = new String[36];
-
-            for (int i = 1; i <= a.Length; i++)
-            {
-                if (i < 10)
-                {
-                    a[i - 1] += "0";
-                }
-                a[i - 1] += i;
-            }
-            imagenes = a.OrderBy(x => random.Next()).ToArray();
-            imgnomlv3.Image = (Image)Properties.Resources.ResourceManager.GetObject("T" + imagenes[0]);
-            contents = Properties.Resources.ResourceManager.GetString("T" + imagenes[posImg] + "1");
-            tbDesc.Text = contents;
+            miConn = new DBConexion();
+            ActualizaAnimales(imgnomlv3, posImg.ToString());
+            contents = ObtenerNombre(posImg.ToString());
+            animaldesc.Text = contents;
+            Console.WriteLine(posImg);
             nuevoBg();
         } 
     }

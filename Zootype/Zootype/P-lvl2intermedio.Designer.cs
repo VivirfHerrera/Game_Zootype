@@ -32,7 +32,7 @@
             this.Points2 = new System.Windows.Forms.Label();
             this.lblp2 = new System.Windows.Forms.Label();
             this.Animalname2 = new System.Windows.Forms.TextBox();
-            this.escribanimalname2 = new System.Windows.Forms.TextBox();
+            this.tb_write = new System.Windows.Forms.TextBox();
             this.Imgdescrlvl2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -48,11 +48,11 @@
             this.Points2.AutoSize = true;
             this.Points2.BackColor = System.Drawing.Color.Black;
             this.Points2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Points2.Font = new System.Drawing.Font("Unispace", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Points2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Points2.ForeColor = System.Drawing.Color.Chartreuse;
             this.Points2.Location = new System.Drawing.Point(58, 9);
             this.Points2.Name = "Points2";
-            this.Points2.Size = new System.Drawing.Size(35, 37);
+            this.Points2.Size = new System.Drawing.Size(34, 35);
             this.Points2.TabIndex = 0;
             this.Points2.Text = "0";
             // 
@@ -61,11 +61,11 @@
             this.lblp2.AutoSize = true;
             this.lblp2.BackColor = System.Drawing.Color.Black;
             this.lblp2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblp2.Font = new System.Drawing.Font("Unispace", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblp2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblp2.ForeColor = System.Drawing.Color.Chartreuse;
             this.lblp2.Location = new System.Drawing.Point(32, 49);
             this.lblp2.Name = "lblp2";
-            this.lblp2.Size = new System.Drawing.Size(90, 31);
+            this.lblp2.Size = new System.Drawing.Size(105, 31);
             this.lblp2.TabIndex = 2;
             this.lblp2.Text = "SCORE";
             this.lblp2.Click += new System.EventHandler(this.lblp2_Click);
@@ -81,13 +81,13 @@
             this.Animalname2.TabIndex = 4;
             this.Animalname2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // escribanimalname2
+            // tb_write
             // 
-            this.escribanimalname2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.escribanimalname2.Location = new System.Drawing.Point(58, 401);
-            this.escribanimalname2.Name = "escribanimalname2";
-            this.escribanimalname2.Size = new System.Drawing.Size(387, 39);
-            this.escribanimalname2.TabIndex = 5;
+            this.tb_write.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.tb_write.Location = new System.Drawing.Point(58, 401);
+            this.tb_write.Name = "tb_write";
+            this.tb_write.Size = new System.Drawing.Size(387, 39);
+            this.tb_write.TabIndex = 5;
             // 
             // Imgdescrlvl2
             // 
@@ -174,7 +174,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Imgdescrlvl2);
-            this.Controls.Add(this.escribanimalname2);
+            this.Controls.Add(this.tb_write);
             this.Controls.Add(this.Animalname2);
             this.Controls.Add(this.lblp2);
             this.Controls.Add(this.Points2);
@@ -195,7 +195,7 @@
         private System.Windows.Forms.Label Points2;
         private System.Windows.Forms.Label lblp2;
         private System.Windows.Forms.TextBox Animalname2;
-        private System.Windows.Forms.TextBox escribanimalname2;
+        private System.Windows.Forms.TextBox tb_write;
         private System.Windows.Forms.PictureBox Imgdescrlvl2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

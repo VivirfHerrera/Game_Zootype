@@ -23,5 +23,12 @@ namespace Zootype
             pMenu.Show();
             this.Dispose();
         }
+
+        private void btn_listado_Click(object sender, EventArgs e)
+        {
+            DatosAnimales datosAnimales = new DatosAnimales();
+            datosAnimales.Show();
+            this.Dispose();
+        }
     }
 }

@@ -34,7 +34,6 @@
             this.btnregresarPin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnlvl1 = new System.Windows.Forms.Button();
-            this.btn_datos = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,29 +114,11 @@
             this.btnlvl1.UseVisualStyleBackColor = false;
             this.btnlvl1.Click += new System.EventHandler(this.btnlvl1_Click);
             // 
-            // btn_datos
-            // 
-            this.btn_datos.BackColor = System.Drawing.Color.DarkGreen;
-            this.btn_datos.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_datos.BackgroundImage")));
-            this.btn_datos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btn_datos.FlatAppearance.BorderSize = 0;
-            this.btn_datos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_datos.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_datos.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btn_datos.Location = new System.Drawing.Point(754, 343);
-            this.btn_datos.Name = "btn_datos";
-            this.btn_datos.Size = new System.Drawing.Size(150, 44);
-            this.btn_datos.TabIndex = 6;
-            this.btn_datos.Text = "Datos";
-            this.btn_datos.UseVisualStyleBackColor = false;
-            this.btn_datos.Click += new System.EventHandler(this.btn_datos_Click);
-            // 
             // PInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(944, 489);
-            this.Controls.Add(this.btn_datos);
             this.Controls.Add(this.btnregresarPin);
             this.Controls.Add(this.btnlvl1);
             this.Controls.Add(this.btnlvl2);
@@ -158,6 +139,5 @@
         private System.Windows.Forms.Button btnregresarPin;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnlvl1;
-        private System.Windows.Forms.Button btn_datos;
     }
 }

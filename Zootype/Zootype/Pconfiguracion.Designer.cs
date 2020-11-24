@@ -41,6 +41,7 @@
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.btnregresar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_listado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -179,12 +180,24 @@
             this.button2.Text = "Guardar";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btn_listado
+            // 
+            this.btn_listado.BackColor = System.Drawing.Color.BurlyWood;
+            this.btn_listado.Location = new System.Drawing.Point(240, 407);
+            this.btn_listado.Name = "btn_listado";
+            this.btn_listado.Size = new System.Drawing.Size(127, 37);
+            this.btn_listado.TabIndex = 16;
+            this.btn_listado.Text = "Ver listado";
+            this.btn_listado.UseVisualStyleBackColor = false;
+            this.btn_listado.Click += new System.EventHandler(this.btn_listado_Click);
+            // 
             // PConfig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(696, 459);
+            this.Controls.Add(this.btn_listado);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.checkBox5);
@@ -199,8 +212,8 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Name = "PConfig";
-            this.Text = "Configuracion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Configuracion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,5 +234,6 @@
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.Button btnregresar;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_listado;
     }
 }
