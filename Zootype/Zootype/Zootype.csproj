@@ -45,6 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatosAnimales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosAnimales.Designer.cs">
+      <DependentUpon>DatosAnimales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConexion.cs" />
     <Compile Include="P-lvl1Principiante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +75,11 @@
     </Compile>
     <Compile Include="Pconfiguracion.Designer.cs">
       <DependentUpon>Pconfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pdss1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pdss1DataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="PInicio.cs">
       <SubType>Form</SubType>
@@ -101,6 +113,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DatosAnimales.resx">
+      <DependentUpon>DatosAnimales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="P-lvl1Principiante.resx">
       <DependentUpon>P-lvl1Principiante.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +153,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="pdss1DataSet.xsc">
+      <DependentUpon>pdss1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pdss1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pdss1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pdss1DataSet.xss">
+      <DependentUpon>pdss1DataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -152,21 +178,172 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Imagenes Fondos lvls\Acuaticlvl1.png" />
-    <Content Include="Imagenes Fondos lvls\Acuaticlvl2.png" />
-    <Content Include="Imagenes Fondos lvls\Acuaticlvl3.png" />
+    <Content Include="Animal lvl1\01.png" />
+    <Content Include="Animal lvl1\02.png" />
+    <Content Include="Animal lvl1\03.png" />
+    <Content Include="Animal lvl1\04.png" />
+    <Content Include="Animal lvl1\05.png" />
+    <Content Include="Animal lvl1\06.png" />
+    <Content Include="Animal lvl1\07.png" />
+    <Content Include="Animal lvl1\08.png" />
+    <Content Include="Animal lvl1\09.png" />
+    <Content Include="Animal lvl1\10.png" />
+    <Content Include="Animal lvl1\11.png" />
+    <Content Include="Animal lvl1\12.png" />
+    <Content Include="Animal lvl1\13.png" />
+    <Content Include="Animal lvl1\14.png" />
+    <Content Include="Animal lvl1\15.png" />
+    <Content Include="Animal lvl1\16.png" />
+    <Content Include="Animal lvl1\17.png" />
+    <Content Include="Animal lvl1\18.png" />
+    <Content Include="Animal lvl2\01.png" />
+    <Content Include="Animal lvl2\02.png" />
+    <Content Include="Animal lvl2\03.png" />
+    <Content Include="Animal lvl2\04.png" />
+    <Content Include="Animal lvl2\05.png" />
+    <Content Include="Animal lvl2\06.png" />
+    <Content Include="Animal lvl2\07.png" />
+    <Content Include="Animal lvl2\08.png" />
+    <Content Include="Animal lvl2\09.png" />
+    <Content Include="Animal lvl2\10.png" />
+    <Content Include="Animal lvl2\11.png" />
+    <Content Include="Animal lvl2\12.png" />
+    <Content Include="Animal lvl2\13.png" />
+    <Content Include="Animal lvl2\14.png" />
+    <Content Include="Animal lvl2\15.png" />
+    <Content Include="Animal lvl2\16.png" />
+    <Content Include="Animal lvl2\17.png" />
+    <Content Include="Animal lvl2\18.png" />
+    <Content Include="Animal lvl3\01.png" />
+    <Content Include="Animal lvl3\02.png" />
+    <Content Include="Animal lvl3\03.png" />
+    <Content Include="Animal lvl3\04.png" />
+    <Content Include="Animal lvl3\05.png" />
+    <Content Include="Animal lvl3\06.png" />
+    <Content Include="Animal lvl3\07.png" />
+    <Content Include="Animal lvl3\08.png" />
+    <Content Include="Animal lvl3\09.png" />
+    <Content Include="Animal lvl3\10.png" />
+    <Content Include="Animal lvl3\11.png" />
+    <Content Include="Animal lvl3\12.png" />
+    <Content Include="Animal lvl3\13.png" />
+    <Content Include="Animal lvl3\14.png" />
+    <Content Include="Animal lvl3\15.png" />
+    <Content Include="Animal lvl3\16.png" />
+    <Content Include="Animal lvl3\17.png" />
+    <Content Include="Animal lvl3\18.png" />
+    <Content Include="Animal lvl3\19.png" />
+    <Content Include="Animal lvl3\20.png" />
+    <Content Include="Animal lvl3\21.png" />
+    <Content Include="Animal lvl3\22.png" />
+    <Content Include="Animal lvl3\23.png" />
+    <Content Include="Animal lvl3\24.png" />
+    <Content Include="Animal lvl3\25.png" />
+    <Content Include="Animal lvl3\26.png" />
+    <Content Include="Animal lvl3\27.png" />
+    <Content Include="Animal lvl3\28.png" />
+    <Content Include="Animal lvl3\29.png" />
+    <Content Include="Animal lvl3\30.png" />
+    <Content Include="Animal lvl3\31.png" />
+    <Content Include="Animal lvl3\32.png" />
+    <Content Include="Animal lvl3\33.png" />
+    <Content Include="Animal lvl3\34.png" />
+    <Content Include="Animal lvl3\35.png" />
+    <Content Include="Animal lvl3\36.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticolvl1.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticolvl2.png" />
+    <Content Include="Imagenes Fondos lvls\Acuaticolvl3.png" />
     <Content Include="Imagenes Fondos lvls\Aereoslvl1.png" />
     <Content Include="Imagenes Fondos lvls\Aereoslvl2.png" />
     <Content Include="Imagenes Fondos lvls\Aereoslvl3.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl1.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl2.png" />
     <Content Include="Imagenes Fondos lvls\Terrestrelvl3.png" />
+    <Content Include="Otras Imagenes\btn2.png" />
+    <Content Include="Otras Imagenes\Menup.jpg" />
+    <Content Include="Otras Imagenes\Pinicif.jpg" />
     <Content Include="Otras Imagenes\btn.png" />
     <Content Include="Otras Imagenes\btn1.png" />
+    <Content Include="Otras Imagenes\CargaZootype.png" />
+    <Content Include="Otras Imagenes\fondo-hojas-naturales_23-2148522046.jpg" />
+    <Content Include="Otras Imagenes\PantallaMenu.png" />
+    <Content Include="Otras Imagenes\precors.png" />
+    <None Include="Resources\btn2.png" />
+    <None Include="Resources\-01.bmp" />
+    <Content Include="Texto lvl1\01.txt" />
+    <Content Include="Texto lvl1\02.txt" />
+    <Content Include="Texto lvl1\03.txt" />
+    <Content Include="Texto lvl1\04.txt" />
+    <Content Include="Texto lvl1\05.txt" />
+    <Content Include="Texto lvl1\06.txt" />
+    <Content Include="Texto lvl1\07.txt" />
+    <Content Include="Texto lvl1\08.txt" />
+    <Content Include="Texto lvl1\09.txt" />
+    <Content Include="Texto lvl1\10.txt" />
+    <Content Include="Texto lvl1\11.txt" />
+    <Content Include="Texto lvl1\12.txt" />
+    <Content Include="Texto lvl1\13.txt" />
+    <Content Include="Texto lvl1\14.txt" />
+    <Content Include="Texto lvl1\15.txt" />
+    <Content Include="Texto lvl1\16.txt" />
+    <Content Include="Texto lvl1\17.txt" />
+    <Content Include="Texto lvl1\18.txt" />
+    <Content Include="Texto lvl2\01.txt" />
+    <Content Include="Texto lvl2\02.txt" />
+    <Content Include="Texto lvl2\03.txt" />
+    <Content Include="Texto lvl2\04.txt" />
+    <Content Include="Texto lvl2\05.txt" />
+    <Content Include="Texto lvl2\06.txt" />
+    <Content Include="Texto lvl2\07.txt" />
+    <Content Include="Texto lvl2\08.txt" />
+    <Content Include="Texto lvl2\09.txt" />
+    <Content Include="Texto lvl2\10.txt" />
+    <Content Include="Texto lvl2\11.txt" />
+    <Content Include="Texto lvl2\12.txt" />
+    <Content Include="Texto lvl2\13.txt" />
+    <Content Include="Texto lvl2\14.txt" />
+    <Content Include="Texto lvl2\15.txt" />
+    <Content Include="Texto lvl2\16.txt" />
+    <Content Include="Texto lvl2\17.txt" />
+    <Content Include="Texto lvl2\18.txt" />
+    <Content Include="Texto lvl3\01.txt" />
+    <Content Include="Texto lvl3\02.txt" />
+    <Content Include="Texto lvl3\03.txt" />
+    <Content Include="Texto lvl3\04.txt" />
+    <Content Include="Texto lvl3\05.txt" />
+    <Content Include="Texto lvl3\06.txt" />
+    <Content Include="Texto lvl3\07.txt" />
+    <Content Include="Texto lvl3\08.txt" />
+    <Content Include="Texto lvl3\09.txt" />
+    <Content Include="Texto lvl3\10.txt" />
+    <Content Include="Texto lvl3\11.txt" />
+    <Content Include="Texto lvl3\12.txt" />
+    <Content Include="Texto lvl3\13.txt" />
+    <Content Include="Texto lvl3\14.txt" />
+    <Content Include="Texto lvl3\15.txt" />
+    <Content Include="Texto lvl3\16.txt" />
+    <Content Include="Texto lvl3\17.txt" />
+    <Content Include="Texto lvl3\18.txt" />
+    <Content Include="Texto lvl3\19.txt" />
+    <Content Include="Texto lvl3\20.txt" />
+    <Content Include="Texto lvl3\21.txt" />
+    <Content Include="Texto lvl3\22.txt" />
+    <Content Include="Texto lvl3\23.txt" />
+    <Content Include="Texto lvl3\24.txt" />
+    <Content Include="Texto lvl3\25.txt" />
+    <Content Include="Texto lvl3\26.txt" />
+    <Content Include="Texto lvl3\27.txt" />
+    <Content Include="Texto lvl3\28.txt" />
+    <Content Include="Texto lvl3\29.txt" />
+    <Content Include="Texto lvl3\30.txt" />
+    <Content Include="Texto lvl3\31.txt" />
+    <Content Include="Texto lvl3\32.txt" />
+    <Content Include="Texto lvl3\33.txt" />
+    <Content Include="Texto lvl3\34.txt" />
+    <Content Include="Texto lvl3\35.txt" />
+    <Content Include="Texto lvl3\36.txt" />
     <None Include="Resources\btn.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Fotos Animales\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

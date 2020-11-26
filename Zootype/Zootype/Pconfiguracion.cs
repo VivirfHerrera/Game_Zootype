@@ -16,5 +16,19 @@ namespace Zootype
         {
             InitializeComponent();
         }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            PMenu pMenu = new PMenu();
+            pMenu.Show();
+            this.Dispose();
+        }
+
+        private void btn_listado_Click(object sender, EventArgs e)
+        {
+            DatosAnimales datosAnimales = new DatosAnimales();
+            datosAnimales.Show();
+            this.Dispose();
+        }
     }
 }

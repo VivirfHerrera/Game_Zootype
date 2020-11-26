@@ -31,9 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PInicio));
             this.btnlvl3 = new System.Windows.Forms.Button();
             this.btnlvl2 = new System.Windows.Forms.Button();
-            this.btnlvl1 = new System.Windows.Forms.Button();
             this.btnregresarPin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnlvl1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,6 +51,7 @@
             this.btnlvl3.TabIndex = 0;
             this.btnlvl3.Text = "Avanzado";
             this.btnlvl3.UseVisualStyleBackColor = false;
+            this.btnlvl3.Click += new System.EventHandler(this.btnlvl3_Click);
             // 
             // btnlvl2
             // 
@@ -63,26 +64,11 @@
             this.btnlvl2.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnlvl2.Location = new System.Drawing.Point(50, 329);
             this.btnlvl2.Name = "btnlvl2";
-            this.btnlvl2.Size = new System.Drawing.Size(150, 46);
+            this.btnlvl2.Size = new System.Drawing.Size(150, 47);
             this.btnlvl2.TabIndex = 1;
             this.btnlvl2.Text = "Intermedio";
             this.btnlvl2.UseVisualStyleBackColor = false;
-            // 
-            // btnlvl1
-            // 
-            this.btnlvl1.BackColor = System.Drawing.Color.DarkGreen;
-            this.btnlvl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlvl1.BackgroundImage")));
-            this.btnlvl1.FlatAppearance.BorderSize = 0;
-            this.btnlvl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlvl1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlvl1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnlvl1.Location = new System.Drawing.Point(50, 231);
-            this.btnlvl1.Name = "btnlvl1";
-            this.btnlvl1.Size = new System.Drawing.Size(150, 44);
-            this.btnlvl1.TabIndex = 2;
-            this.btnlvl1.Text = "Principiante";
-            this.btnlvl1.UseVisualStyleBackColor = false;
-            this.btnlvl1.Click += new System.EventHandler(this.btnlvl1_Click);
+            this.btnlvl2.Click += new System.EventHandler(this.btnlvl2_Click);
             // 
             // btnregresarPin
             // 
@@ -98,6 +84,7 @@
             this.btnregresarPin.TabIndex = 4;
             this.btnregresarPin.Text = "Regresar";
             this.btnregresarPin.UseVisualStyleBackColor = false;
+            this.btnregresarPin.Click += new System.EventHandler(this.btnregresarPin_Click);
             // 
             // pictureBox1
             // 
@@ -110,6 +97,23 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // btnlvl1
+            // 
+            this.btnlvl1.BackColor = System.Drawing.Color.DarkGreen;
+            this.btnlvl1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnlvl1.BackgroundImage")));
+            this.btnlvl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnlvl1.FlatAppearance.BorderSize = 0;
+            this.btnlvl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlvl1.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlvl1.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnlvl1.Location = new System.Drawing.Point(50, 255);
+            this.btnlvl1.Name = "btnlvl1";
+            this.btnlvl1.Size = new System.Drawing.Size(150, 44);
+            this.btnlvl1.TabIndex = 2;
+            this.btnlvl1.Text = "Principiante";
+            this.btnlvl1.UseVisualStyleBackColor = false;
+            this.btnlvl1.Click += new System.EventHandler(this.btnlvl1_Click);
+            // 
             // PInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,6 +125,7 @@
             this.Controls.Add(this.btnlvl3);
             this.Controls.Add(this.pictureBox1);
             this.Name = "PInicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -131,8 +136,8 @@
 
         private System.Windows.Forms.Button btnlvl3;
         private System.Windows.Forms.Button btnlvl2;
-        private System.Windows.Forms.Button btnlvl1;
         private System.Windows.Forms.Button btnregresarPin;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnlvl1;
     }
 }

@@ -39,8 +39,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnregresar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_listado = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -158,15 +159,16 @@
             this.checkBox5.Text = "Herviboros";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnregresar
             // 
-            this.button1.BackColor = System.Drawing.Color.BurlyWood;
-            this.button1.Location = new System.Drawing.Point(403, 407);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(127, 37);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Regresar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnregresar.BackColor = System.Drawing.Color.BurlyWood;
+            this.btnregresar.Location = new System.Drawing.Point(403, 407);
+            this.btnregresar.Name = "btnregresar";
+            this.btnregresar.Size = new System.Drawing.Size(127, 37);
+            this.btnregresar.TabIndex = 14;
+            this.btnregresar.Text = "Regresar";
+            this.btnregresar.UseVisualStyleBackColor = false;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
             // 
             // button2
             // 
@@ -178,14 +180,26 @@
             this.button2.Text = "Guardar";
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // btn_listado
+            // 
+            this.btn_listado.BackColor = System.Drawing.Color.BurlyWood;
+            this.btn_listado.Location = new System.Drawing.Point(240, 407);
+            this.btn_listado.Name = "btn_listado";
+            this.btn_listado.Size = new System.Drawing.Size(127, 37);
+            this.btn_listado.TabIndex = 16;
+            this.btn_listado.Text = "Ver listado";
+            this.btn_listado.UseVisualStyleBackColor = false;
+            this.btn_listado.Click += new System.EventHandler(this.btn_listado_Click);
+            // 
             // PConfig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(696, 459);
+            this.Controls.Add(this.btn_listado);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.label4);
@@ -198,6 +212,7 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label1);
             this.Name = "PConfig";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Configuracion";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -217,7 +232,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnregresar;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_listado;
     }
 }

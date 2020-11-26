@@ -26,5 +26,12 @@ namespace Zootype
         {
 
         }
+
+        private void regresar_Click(object sender, EventArgs e)
+        {
+            PMenu pMenu = new PMenu();
+            pMenu.Show();
+            this.Dispose();
+        }
     }
 }

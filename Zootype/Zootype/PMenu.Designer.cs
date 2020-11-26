@@ -1,4 +1,6 @@
-﻿namespace Zootype
+﻿using System;
+
+namespace Zootype
 {
     partial class PMenu
     {
@@ -26,6 +28,29 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
+
+        /*
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // PMenu
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "PMenu";
+            this.Load += new System.EventHandler(this.PMenu_Load);
+            this.ResumeLayout(false);
+
+
+        }
+        */
+
+
+
+
+
+
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PMenu));
@@ -61,6 +86,7 @@
             this.btnConfig.TabIndex = 1;
             this.btnConfig.Text = "Configuracion";
             this.btnConfig.UseVisualStyleBackColor = true;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
             // btnRecord
             // 
@@ -74,6 +100,7 @@
             this.btnRecord.TabIndex = 2;
             this.btnRecord.Text = "Record";
             this.btnRecord.UseVisualStyleBackColor = true;
+            this.btnRecord.Click += new System.EventHandler(this.btnRecord_Click);
             // 
             // btnInicio
             // 
@@ -87,6 +114,7 @@
             this.btnInicio.TabIndex = 3;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
             // 
             // btnSalida
             // 
@@ -100,6 +128,7 @@
             this.btnSalida.TabIndex = 4;
             this.btnSalida.Text = "Salida";
             this.btnSalida.UseVisualStyleBackColor = true;
+            this.btnSalida.Click += new System.EventHandler(this.btnSalida_Click);
             // 
             // btnInstrucciones
             // 
@@ -113,6 +142,7 @@
             this.btnInstrucciones.TabIndex = 5;
             this.btnInstrucciones.Text = "Instrucciones";
             this.btnInstrucciones.UseVisualStyleBackColor = true;
+            this.btnInstrucciones.Click += new System.EventHandler(this.btnInstrucciones_Click);
             // 
             // PMenu
             // 
@@ -133,6 +163,12 @@
             this.PerformLayout();
 
         }
+
+
+
+
+
+
 
         #endregion
 
