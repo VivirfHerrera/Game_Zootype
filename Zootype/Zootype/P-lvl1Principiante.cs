@@ -21,10 +21,5 @@ namespace Zootype
         {
 
         }
-
-        private void P_lvl1Principiante_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
