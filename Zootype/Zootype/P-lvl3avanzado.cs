@@ -24,9 +24,25 @@ namespace Zootype
         int posImg = 1;
         int score = 0;
         int totalImagenes = 18;
+        private void GuardarResultado()
+        {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = ("Data Source = 189.173.87.246; Initial Catalog = pdss1; "
+                + " User Id= user; Password= macario;");
+            con.Open();
+            String st = "INSERT INTO dbo.r_lvl2(puntos) Values (@puntos)";
+            SqlCommand cmd = new SqlCommand(st, con);
+            cmd.Parameters.AddWithValue("@puntos", score);
+            cmd.ExecuteNonQuery();
+            con.Close();
 
+            MessageBox.Show("Puntaje guardado correctamente.", "Puntaje", MessageBoxButtons.OK);
+
+
+        }
         private void btnregres3_Click(object sender, EventArgs e)
         {
+            GuardarResultado();
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
@@ -64,6 +80,7 @@ namespace Zootype
                         string title = "Close Window";
                         MessageBoxButtons buttons = MessageBoxButtons.OK;
                         DialogResult result = MessageBox.Show(message, title, buttons);
+                        GuardarResultado();
                         if (result == DialogResult.OK)
                         {
                             PInicio pInicio = new PInicio();

@@ -16,7 +16,7 @@ namespace Zootype
 
         public DBConexion() // Constructor crea la Conexión
         {
-            miConexion = "Data Source=	189.173.142.213; Initial Catalog=pdss1;"
+            miConexion = "Data Source=	189.173.87.246; Initial Catalog=pdss1;"
              + " User Id= user; Password= macario;";
 
             //miConexion = "Data Source=localhost; Initial Catalog=NombreBaseDatos;"

@@ -23,9 +23,24 @@ namespace Zootype
         public P_lvl1Principiante()
         {
             InitializeComponent();
-        }    
+        }
+        private void GuardarResultado()
+        {
+            SqlConnection con = new SqlConnection();
+            con.ConnectionString = ("Data Source = 189.173.87.246; Initial Catalog = pdss1; "
+                + " User Id= user; Password= macario;");
+            con.Open();
+            String st = "INSERT INTO dbo.r_lvl1(puntos) Values (@puntos)";
+            SqlCommand cmd = new SqlCommand(st, con);
+            cmd.Parameters.AddWithValue("@puntos", score);
+            cmd.ExecuteNonQuery();
+            con.Close();
 
-        
+            MessageBox.Show("Puntaje guardado correctamente.", "Puntaje", MessageBoxButtons.OK);
+
+
+        }
+
         private void btn_verificar_Click(object sender, EventArgs e)
         {
 
@@ -56,6 +71,7 @@ namespace Zootype
 
                     if (score == 15)
                     {
+
                         string message = "¡Felicidades Completaste El Nivel Principiante Con 15 Puntos!";
                         string title = "Close Window";
                         MessageBoxButtons buttons = MessageBoxButtons.OK;
@@ -66,6 +82,7 @@ namespace Zootype
                             pInicio.Show();
                             this.Dispose();
                         }
+                        GuardarResultado();
                     }
                 }
             }
@@ -150,6 +167,7 @@ namespace Zootype
 
         private void btn_regresar_Click(object sender, EventArgs e)
         {
+            GuardarResultado();
             PInicio pInicio = new PInicio();
             pInicio.Show();
             this.Dispose();
